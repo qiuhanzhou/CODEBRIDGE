@@ -1,10 +1,32 @@
+import NavigationItem from './NavigationItem'
+import { useRef } from 'react'
+
 export default function Navigation() {
+  const inputRef = useRef()
+
+  const navigationItems = [
+    { id: 1, name: 'Introduction: Problem overview', sectionLink: 'intro' },
+    {
+      id: 2,
+      name: 'Dataset description and analysis approach',
+      sectionLink: 'description',
+    },
+    { id: 3, name: 'Data analysis result', sectionLink: 'results' },
+    { id: 4, name: 'Data analysis conclusion', sectionLink: 'conclusion' },
+    { id: 5, name: 'About Us', sectionLink: 'about' },
+  ]
+
+  function close() {
+    inputRef.current.checked = false
+  }
+
   return (
-    <div className='navigation'>
+    <div className=' navigation'>
       <input
         type='checkbox'
         className='navigation__checkbox'
         id='navi-toggle'
+        ref={inputRef}
       />
       <label htmlFor='navi-toggle' className='navigation__button'>
         <span className='navigation__icon'>&nbsp;</span>
@@ -14,31 +36,13 @@ export default function Navigation() {
 
       <nav className='navigation__nav'>
         <ul className='navigation__list'>
-          <li className='navigation__item'>
-            <a href='#' className='navigation__link'>
-              <span>01</span>About Natous
-            </a>
-          </li>
-          <li className='navigation__item'>
-            <a href='#' className='navigation__link'>
-              <span>02</span>Your benfits
-            </a>
-          </li>
-          <li className='navigation__item'>
-            <a href='#' className='navigation__link'>
-              <span>03</span>Popular tours
-            </a>
-          </li>
-          <li className='navigation__item'>
-            <a href='#' className='navigation__link'>
-              <span>04</span>Stories
-            </a>
-          </li>
-          <li className='navigation__item'>
-            <a href='#' className='navigation__link'>
-              <span>05</span>Book now
-            </a>
-          </li>
+          {navigationItems.map((item) => (
+            <NavigationItem
+              key={item.id}
+              navigationItem={item}
+              onClick={close}
+            />
+          ))}
         </ul>
       </nav>
     </div>

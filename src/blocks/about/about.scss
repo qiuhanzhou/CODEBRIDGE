@@ -1,0 +1,31 @@
+.about {
+  padding: 0;
+  background: linear-gradient(180deg, #fff 20%, #d5fff7 50%, #d5fff7 80%, #fff);
+  margin-top: 80px;
+
+  &__lior {
+    margin-left: 20px;
+  }
+
+  &__karen {
+    margin-right: 20px;
+  }
+  &__title {
+    text-align: center;
+  }
+
+  &__subtitle {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+  }
+  &__profession {
+    transform: translateX(-3rem);
+  }
+  &__subtitle {
+    font-size: 22px;
+  }
+  &__text {
+    font-size: 18px;
+  }
+}

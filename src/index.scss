@@ -1,5 +1,16 @@
-@import url(./blocks/page/page.scss);
+@import url(../src/vendor/normalize.css);
+@import url(../src/vendor/fonts.css);
+@import url(../src/animation/animations.scss);
+@import url(../src/animation/animation/animation.scss);
+
 @import url(./blocks/App/App.scss);
+@import url(./blocks/section/section.scss);
 @import url(./blocks/navigation/navigation.scss);
 @import url(./blocks/slick/slick.scss);
 @import url(./blocks/slide/slide.scss);
+@import url(./blocks/intro/intro.scss);
+@import url(./blocks/card/card.scss);
+@import url(./blocks/counter/counter.scss);
+@import url(./blocks/grid/grid.scss);
+@import url(./blocks/about/about.scss);
+@import url(./blocks/results/results.scss);

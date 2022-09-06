@@ -1,4 +1,39 @@
 .slide {
+  box-sizing: border-box;
   width: 100%;
-  height: 900px;
+  height: calc(100vh - 88px);
+  position: relative;
+
+  &__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .slide__slogen {
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    width: 50%;
+    text-align: left;
+    color: white;
+    z-index: 100;
+    font-size: 2.5rem;
+    line-height: 1.5;
+  }
+
+  @media screen and (max-width: 1200px) {
+    .slide__slogen {
+      width: 80%;
+      font-size: 1.75rem;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .slide__slogen {
+      width: 90%;
+      font-size: 1rem;
+      line-height: 1.2;
+    }
+  }
 }

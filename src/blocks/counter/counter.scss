@@ -1,0 +1,23 @@
+.counter {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0;
+  padding: 20px 60px;
+
+  &__title {
+    font-weight: 500;
+    font-size: 33px;
+    line-height: 58px;
+    margin: auto;
+    text-align: center;
+    margin-top: 80px;
+  }
+}
+@media screen and (max-width: 1309px) {
+  .counter {
+    flex-direction: column;
+    margin: 38px auto 26px;
+  }
+}
