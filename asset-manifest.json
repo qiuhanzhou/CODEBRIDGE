@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/CODEBRIDGE/static/css/main.50410b06.css",
-    "main.js": "/CODEBRIDGE/static/js/main.1dd1e816.js",
+    "main.css": "/CODEBRIDGE/static/css/main.0518f316.css",
+    "main.js": "/CODEBRIDGE/static/js/main.8bbe32ff.js",
     "static/js/787.d7ece244.chunk.js": "/CODEBRIDGE/static/js/787.d7ece244.chunk.js",
+    "static/media/number-of-farms-without-asia.png": "/CODEBRIDGE/static/media/number-of-farms-without-asia.3990fe8c095caf39ccd8.png",
     "static/media/farms-per-region-plot.png": "/CODEBRIDGE/static/media/farms-per-region-plot.d1d1db014f87a1b9d676.png",
+    "static/media/capacity-per-region-table.png": "/CODEBRIDGE/static/media/capacity-per-region-table.5e02a2e3abc86cf88964.png",
     "static/media/slick.svg": "/CODEBRIDGE/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/CODEBRIDGE/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/CODEBRIDGE/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/CODEBRIDGE/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/CODEBRIDGE/index.html",
-    "main.50410b06.css.map": "/CODEBRIDGE/static/css/main.50410b06.css.map",
-    "main.1dd1e816.js.map": "/CODEBRIDGE/static/js/main.1dd1e816.js.map",
+    "main.0518f316.css.map": "/CODEBRIDGE/static/css/main.0518f316.css.map",
+    "main.8bbe32ff.js.map": "/CODEBRIDGE/static/js/main.8bbe32ff.js.map",
     "787.d7ece244.chunk.js.map": "/CODEBRIDGE/static/js/787.d7ece244.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.50410b06.css",
-    "static/js/main.1dd1e816.js"
+    "static/css/main.0518f316.css",
+    "static/js/main.8bbe32ff.js"
   ]
 }
