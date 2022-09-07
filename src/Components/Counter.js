@@ -54,10 +54,13 @@ export default function Counter() {
 
   return (
     <Fragment>
-      <h2 className='counter__title'>
+      <h2
+        className={`counter__title ${inView ? 'animation__moveInRight' : null}`}
+        ref={ref}
+      >
         Global Solar Positively Impacts on the Environment
       </h2>
-      <div className='section counter' ref={ref}>
+      <div className='section counter'>
         {renderCards && cards.map((card) => <Card key={card.id} card={card} />)}
       </div>
     </Fragment>

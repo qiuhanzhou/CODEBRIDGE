@@ -4,10 +4,10 @@ export default function Conclusion() {
   const [ref, inView] = useInView({ threshold: 0.5 })
 
   return (
-    <section ref={ref} className='section intro' id='intro'>
-      <div className='intro__container'>
+    <section ref={ref} className='section conclusion' id='conclusion'>
+      <div className='conclusion__container'>
         <h2
-          className={`intro__title ${
+          className={`conclusion__title ${
             inView ? 'animation__moveInLeft' : null
           } }`}
         >
@@ -15,7 +15,7 @@ export default function Conclusion() {
         </h2>
 
         <p
-          className={`intro__text ${
+          className={`conclusion__text ${
             inView ? 'animation__moveInRight' : null
           } }`}
         >

@@ -12,6 +12,7 @@
   }
   &__title {
     text-align: center;
+    font-size: 40px;
   }
 
   &__subtitle {
@@ -20,12 +21,13 @@
     margin: auto;
   }
   &__profession {
-    transform: translateX(-3rem);
+    color: blueviolet;
+    font-style: italic;
   }
   &__subtitle {
     font-size: 22px;
   }
   &__text {
-    font-size: 18px;
+    font-size: 22px;
   }
 }

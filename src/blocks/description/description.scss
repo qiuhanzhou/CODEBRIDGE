@@ -3,12 +3,10 @@
   width: 100%;
   background: linear-gradient(180deg, #fff 20%, #d5fff7 50%, #d5fff7 80%, #fff);
 
-  &__title {
-    font-weight: 900;
-    font-size: 54px;
-    line-height: 58px;
-    margin: auto;
-    text-align: center;
+  &__container {
+    width: 80%;
+    box-sizing: border-box;
+    margin: 30px auto;
   }
 
   &__text {

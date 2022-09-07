@@ -90,7 +90,14 @@ export default class SimpleLineChart extends PureComponent {
   render() {
     return (
       <Fragment>
-        <h2 style={{ color: 'red', fontSize: '16px', textAlign: 'center' }}>
+        <h2
+          style={{
+            color: 'grey',
+            fontSize: '26px',
+            alignSelf: 'flex-start',
+            marginLeft: '20px',
+          }}
+        >
           Top Two Countries with the Largest Installed Solar Power Capacity By
           Year
         </h2>

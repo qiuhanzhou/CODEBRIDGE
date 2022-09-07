@@ -47,7 +47,11 @@ export default function AboutUs() {
               inView ? 'animation__moveInRight' : null
             } }`}
           >
-            Qiuhan is a web development student and
+            Qiuhan is a web development student in Practicum and had a
+            background in accounting. She is passionate about building cool
+            websites from scratch with great interactivity. When she is not
+            coding, she is enjoying family time, playing her piano, watching
+            re-runs of Friends, trying new recipes, and reading her books.
           </p>
         </div>
       </div>
