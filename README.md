@@ -1,5 +1,5 @@
 # Github page link
-Published [github page link](https://qiuhanzhou.github.io/CODEBRIDGE)
+Published github page link [here](https://qiuhanzhou.github.io/CODEBRIDGE).
 
 # Getting Started with Create React App
 
