@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/CODEBRIDGE/static/css/main.31a59783.css",
-    "main.js": "/CODEBRIDGE/static/js/main.2a2c65b7.js",
+    "main.js": "/CODEBRIDGE/static/js/main.3e1cb247.js",
     "static/js/787.d7ece244.chunk.js": "/CODEBRIDGE/static/js/787.d7ece244.chunk.js",
     "static/media/number-of-farms-without-asia.png": "/CODEBRIDGE/static/media/number-of-farms-without-asia.3990fe8c095caf39ccd8.png",
     "static/media/farms-per-region-plot.png": "/CODEBRIDGE/static/media/farms-per-region-plot.d1d1db014f87a1b9d676.png",
@@ -12,11 +12,11 @@
     "static/media/slick.woff": "/CODEBRIDGE/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/CODEBRIDGE/index.html",
     "main.31a59783.css.map": "/CODEBRIDGE/static/css/main.31a59783.css.map",
-    "main.2a2c65b7.js.map": "/CODEBRIDGE/static/js/main.2a2c65b7.js.map",
+    "main.3e1cb247.js.map": "/CODEBRIDGE/static/js/main.3e1cb247.js.map",
     "787.d7ece244.chunk.js.map": "/CODEBRIDGE/static/js/787.d7ece244.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.31a59783.css",
-    "static/js/main.2a2c65b7.js"
+    "static/js/main.3e1cb247.js"
   ]
 }
