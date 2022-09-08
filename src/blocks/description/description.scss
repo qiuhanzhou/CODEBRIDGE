@@ -22,17 +22,26 @@
   }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (max-width: 1280px) {
   .description {
     &__title {
+      margin-top: 200px;
       max-width: 100%;
+      font-size: 26px;
     }
   }
 }
 
 @media screen and (max-width: 767px) {
-  .intro__title {
-    font-size: 32px;
-    line-height: 35px;
+  .description {
+    &__title {
+      margin-top: 250px;
+      max-width: 100%;
+      font-size: 26px;
+    }
+  }
+
+  .description {
+    width: 100%;
   }
 }

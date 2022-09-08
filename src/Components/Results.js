@@ -3,11 +3,25 @@
 import chart from '../images/farms-per-region-plot.png'
 import table from '../images/capacity-per-region-table.png'
 import chart2 from '../images/number-of-farms-without-asia.png'
+import bar from '../images/bar-plot-sm2.png'
+import map from '../images/map-sm.png'
+import owner from '../images/owners-sm.png'
+import twoCountry from '../images/two-country.png'
 
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import SimpleLineChart from './SimpleLineChart'
 
 export default function Results() {
+  const [width, setWidth] = useState(window.innerWidth)
+  const breakPoint = 1450
+
+  useEffect(() => {
+    const handleWindowResize = () => setWidth(window.innerWidth)
+    window.addEventListener('resize', handleWindowResize)
+
+    return () => window.removeEventListener('resize', handleWindowResize)
+  }, [])
+
   useEffect(() => {
     window.PLOTLYENV = window.PLOTLYENV || {}
     if (document.getElementById('b11f0f47-2e59-4999-9e02-033b24e03057')) {
@@ -113418,6 +113432,7 @@ export default function Results() {
           },
           barmode: 'relative',
           height: 600,
+          width: 877,
           font: { size: 16 },
           uniformtext: { mode: 'hide' },
           spikedistance: 500,
@@ -113442,11 +113457,26 @@ export default function Results() {
             1. Exploring Solar Farms Energy Output
           </h1>
 
-          <div
-            id='b11f0f47-2e59-4999-9e02-033b24e03057'
-            class='plotly-graph-div'
-            style={{ height: '700px', width: '100%', margin: 'auto' }}
-          ></div>
+          <div>
+            {width > breakPoint ? (
+              <div>
+                {' '}
+                <div
+                  id='b11f0f47-2e59-4999-9e02-033b24e03057'
+                  className='plotly-graph-div'
+                  style={{ height: '700px', width: '100%', margin: 'auto' }}
+                ></div>
+              </div>
+            ) : (
+              <div>
+                <img
+                  className='results__small-img'
+                  src={bar}
+                  alt='average capacity of solar farms per region bar plot'
+                />
+              </div>
+            )}
+          </div>
         </div>
 
         <div className='results__explanation-container'>
@@ -113500,11 +113530,27 @@ export default function Results() {
           </article>
         </div>
 
-        <div
-          id='ddb7bfd3-dc2d-4842-be76-1982c0703c4d'
-          className='plotly-graph-div'
-          style={{ height: '675px', width: '100%' }}
-        ></div>
+        <div>
+          {width > breakPoint ? (
+            <div>
+              {' '}
+              <div
+                id='ddb7bfd3-dc2d-4842-be76-1982c0703c4d'
+                className='plotly-graph-div'
+                style={{ height: '675px', width: '100%' }}
+              ></div>
+            </div>
+          ) : (
+            <div>
+              <img
+                className='results__small-img'
+                src={map}
+                alt='global energy output map'
+              />
+            </div>
+          )}
+        </div>
+
         <article className='results__explanation'>
           <h3 className='results__explanation_note'>
             Global energy output density map explanation:
@@ -113568,8 +113614,16 @@ export default function Results() {
           2. Exploring the solar farms amounts growth rate, per region{' '}
         </h1>
         <div className='results__img-wrapper'>
-          <img src={chart} alt='solar farms per region plot' />
-          <img src={chart2} alt='solar farms per region plot' />
+          <img
+            className='results__small-img'
+            src={chart}
+            alt='solar farms per region plot'
+          />
+          <img
+            className='results__small-img'
+            src={chart2}
+            alt='solar farms per region plot'
+          />
         </div>
         <h4 className='results__explanation_note'>
           Plot Note: The data on the faded purple frame are on the right
@@ -113599,11 +113653,28 @@ export default function Results() {
         <h1 className='results__group-title'>
           3. The leading ownerships in the solar market
         </h1>
-        <div
-          id='bbc70df4-65c8-4f19-a70c-0485833025e3'
-          className='plotly-graph-div'
-          style={{ height: '600px', width: '100%' }}
-        ></div>
+
+        <div>
+          {width > breakPoint ? (
+            <div>
+              {' '}
+              <div
+                id='bbc70df4-65c8-4f19-a70c-0485833025e3'
+                className='plotly-graph-div'
+                style={{ height: '600px', width: '100%' }}
+              ></div>
+            </div>
+          ) : (
+            <div>
+              <img
+                className='results__small-img results__sm'
+                src={owner}
+                alt='solar farms per ownership'
+              />
+            </div>
+          )}
+        </div>
+
         <article className='results__explanation'>
           <h4 className='results__explanation_note'>
             Leading owners plot graph explanation:{' '}
@@ -113637,7 +113708,20 @@ export default function Results() {
         <h1 className='results__group-title'>
           4. Top two countries with the largest solar capaicity
         </h1>
-        <SimpleLineChart />
+
+        <div>
+          {width > breakPoint ? (
+            <SimpleLineChart />
+          ) : (
+            <div>
+              <img
+                className='results__small-img results__sm'
+                src={twoCountry}
+                alt='top two countries with largest capacity chart'
+              />
+            </div>
+          )}
+        </div>
       </div>
     </section>
   )

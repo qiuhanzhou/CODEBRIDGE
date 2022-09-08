@@ -67,6 +67,9 @@
     font-size: 18px;
     margin: 10px 0;
   }
+  &__sm {
+    width: -webkit-fill-available;
+  }
 }
 
 @media screen and (max-width: 1800px) {
@@ -102,17 +105,35 @@
 
     &__title {
       max-width: 100%;
+      margin-top: 200px;
+      font-size: 24px;
+      width: 100%;
     }
 
     &__explanation-container {
       flex-direction: column;
+    }
+
+    &__small-img {
+      width: 370px;
     }
   }
   .results__title {
     font-size: 30px;
     line-height: 35px;
   }
+  .results__group-title {
+    margin: 0 0 30px;
+    font-size: 20px;
+  }
+  .svg-container {
+    margin: auto;
+  }
 }
-.svg-container {
-  margin: auto;
+
+@media screen and (max-width: 550px) {
+  .results__title {
+    margin-top: 250px;
+    font-size: 22px;
+  }
 }
