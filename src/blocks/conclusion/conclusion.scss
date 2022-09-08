@@ -29,6 +29,10 @@
   .conclusion {
     padding-top: 0;
 
+    &__container {
+      width: 100%;
+    }
+
     &__title {
       max-width: 100%;
     }
