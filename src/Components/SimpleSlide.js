@@ -6,10 +6,11 @@ export default function SimpleSlider(props) {
   var settings = {
     dots: true,
     infinite: true,
-    speed: 1200,
+    speed: 1300,
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
+    useTransform: false,
   }
   return (
     <Slider {...settings}>

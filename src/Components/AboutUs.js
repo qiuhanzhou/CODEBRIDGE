@@ -5,7 +5,7 @@ export default function AboutUs() {
 
   return (
     <section ref={ref} className='section about' id='about'>
-      <h1 className='about__title'>About the authors: Who are we?</h1>
+      <h1 className='about__title'>About the authors: Personal Bio</h1>
       <h2 className='about__subtitle'>
         We are passionate{' '}
         <span className='about__profession'>data anaylyst</span> and{' '}

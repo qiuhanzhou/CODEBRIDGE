@@ -1,6 +1,6 @@
 .description {
   margin: auto;
-  width: 100%;
+  width: 70%;
   background: linear-gradient(180deg, #fff 20%, #d5fff7 50%, #d5fff7 80%, #fff);
 
   &__container {
@@ -16,13 +16,10 @@
     font-size: 20px;
   }
   &__title {
-    margin-top: 50px;
+    margin-top: 150px;
     font-size: 36px;
     text-align: center;
   }
-  // &__preview {
-  //   transform: scale(0.6);
-  // }
 }
 
 @media screen and (min-width: 1280px) {

@@ -1,6 +1,6 @@
 .conclusion {
   margin: auto;
-  width: 100%;
+  width: 80%;
   background: linear-gradient(180deg, #fff 20%, #d5fff7 50%, #d5fff7 80%, #fff);
 
   &__container {
@@ -19,13 +19,16 @@
     font-size: 54px;
     text-align: center;
   }
-  h2 {
-    font-size: 38px;
+
+  &__subtitle {
+    font-size: 22px;
   }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (max-width: 1280px) {
   .conclusion {
+    padding-top: 0;
+
     &__title {
       max-width: 100%;
     }

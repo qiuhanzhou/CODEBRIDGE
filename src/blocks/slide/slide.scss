@@ -1,7 +1,6 @@
 .slide {
   box-sizing: border-box;
-  width: 100%;
-  height: calc(100vh - 108px);
+  height: calc(100vh - 140px);
   position: relative;
 
   &__img {
@@ -12,20 +11,20 @@
 
   .slide__slogen {
     position: absolute;
-    top: 70%;
-    left: 10%;
-    width: 50%;
+    top: 75%;
+    left: 8%;
+    width: 60%;
     text-align: left;
     color: white;
     z-index: 100;
-    font-size: 2.5rem;
-    line-height: 1.5;
+    font-size: 2rem;
+    line-height: 1.25;
   }
 
-  @media screen and (max-width: 1200px) {
+  @media screen and (max-width: 1500px) {
     .slide__slogen {
       width: 80%;
-      font-size: 1.75rem;
+      font-size: 1.25rem;
     }
   }
 

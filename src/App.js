@@ -7,6 +7,7 @@ import Results from './Components/Results'
 import Conclusion from './Components/Conclusion'
 import Counter from './Components/Counter'
 import React from 'react'
+import ScrollToTop from 'react-scroll-to-top'
 
 export default function App() {
   return (
@@ -19,6 +20,8 @@ export default function App() {
       <Results />
       <Conclusion />
       <AboutUs />
+
+      <ScrollToTop smooth color='#6f00ff' />
     </div>
   )
 }

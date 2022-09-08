@@ -113714,8 +113714,8 @@ export default function Results() {
           2. Exploring the solar farms amounts growth rate, per region{' '}
         </h1>
         <div className='results__img-wrapper'>
-          <img src={chart} alt='solar farms per region plot.png' />
-          <img src={chart2} alt='solar farms per region plot.png' />
+          <img src={chart} alt='solar farms per region plot' />
+          <img src={chart2} alt='solar farms per region plot' />
         </div>
         <h4 className='results__explanation_note'>
           Plot Note: The data on the faded purple frame are on the right

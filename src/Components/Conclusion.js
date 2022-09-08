@@ -92,7 +92,11 @@ export default function Conclusion() {
                 should&#39;ve been ordered.
               </li>
             </ul>
-            <h2 class='code-line' data-line-start='12' data-line-end='13'>
+            <h2
+              className='conclusion__subtitle'
+              data-line-start='12'
+              data-line-end='13'
+            >
               <a id='51_Data_Preprocessing_12'></a>
               <strong className='conclusion__subtitle'>
                 5.1 Data Preprocessing
@@ -256,7 +260,11 @@ export default function Conclusion() {
                 left the rest of the values as they were.
               </li>
             </ol>
-            <h2 class='code-line' data-line-start='36' data-line-end='37'>
+            <h2
+              className='conclusion__subtitle'
+              data-line-start='36'
+              data-line-end='37'
+            >
               <a id='52_The_Analysis_and_Data_Visualization_36'></a>
               <strong className='conclusion__subtitle'>
                 5.2 The Analysis and Data Visualization
@@ -380,9 +388,12 @@ export default function Conclusion() {
               company that controls the biggest share of the solar market is the
               NextEra Energy company with an owned quantity of 140 solar farms.
             </p>
-            <h2 class='code-line' data-line-start='50' data-line-end='51'>
-              <a className='conclusion__subtitle' id='53_Final_words_50'></a>5.3
-              Final words
+            <h2
+              className='conclusion__subtitle'
+              data-line-start='50'
+              data-line-end='51'
+            >
+              <a id='53_Final_words_50'></a>5.3 Final words
             </h2>
             <p class='has-line-data' data-line-start='51' data-line-end='52'>
               While there might&#39;ve been a slowdown in the past 2 years

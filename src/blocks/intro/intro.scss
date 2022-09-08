@@ -1,6 +1,6 @@
 .intro {
   margin: auto;
-  width: 100%;
+  width: 80%;
   background: linear-gradient(180deg, #fff 20%, #d5fff7 50%, #d5fff7 80%, #fff);
 
   &__container {
@@ -21,8 +21,8 @@
   }
 
   &__text {
-    max-width: 690px;
-    margin-top: 50px;
+    max-width: 90%;
+    margin-top: 10px;
     font-size: 20px;
   }
 }
