@@ -60,8 +60,11 @@ export default function Counter() {
       >
         Global Solar Positively Impacts on the Environment
       </h2>
-      <div className='section counter'>
-        {renderCards && cards.map((card) => <Card key={card.id} card={card} />)}
+      <div className='section '>
+        <div className='counter'>
+          {renderCards &&
+            cards.map((card) => <Card key={card.id} card={card} />)}
+        </div>
       </div>
     </Fragment>
   )

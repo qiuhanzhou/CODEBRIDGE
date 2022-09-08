@@ -10,22 +10,21 @@ import SimpleLineChart from './SimpleLineChart'
 export default function Results() {
   useEffect(() => {
     window.PLOTLYENV = window.PLOTLYENV || {}
-    if (document.getElementById('0d078e75-642b-493c-a06a-3ce41c97fce0')) {
+    if (document.getElementById('b11f0f47-2e59-4999-9e02-033b24e03057')) {
       window.Plotly.newPlot(
-        '0d078e75-642b-493c-a06a-3ce41c97fce0',
+        'b11f0f47-2e59-4999-9e02-033b24e03057',
         [
           {
             alignmentgroup: 'True',
             customdata: [['North Korea', 2500]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['North Korea'],
             legendgroup: 'North Korea',
             marker: {
               color: 'rgb(255,0,0)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'North Korea',
             offsetgroup: 'North Korea',
@@ -42,14 +41,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Oman', 15830]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Oman'],
             legendgroup: 'Oman',
             marker: {
               color: 'rgb(255,111,0)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Oman',
             offsetgroup: 'Oman',
@@ -66,14 +64,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Kuwait', 10120]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Kuwait'],
             legendgroup: 'Kuwait',
             marker: {
               color: 'rgb(255,234,0)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Kuwait',
             offsetgroup: 'Kuwait',
@@ -90,14 +87,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Morocco', 14562]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Morocco'],
             legendgroup: 'Morocco',
             marker: {
               color: 'rgb(151,255,0)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Morocco',
             offsetgroup: 'Morocco',
@@ -114,14 +110,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Afghanistan', 3255]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Afghanistan'],
             legendgroup: 'Afghanistan',
             marker: {
               color: 'rgb(44,255,150)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Afghanistan',
             offsetgroup: 'Afghanistan',
@@ -138,14 +133,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['United Arab Emirates', 6570]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['United Arab Emirates'],
             legendgroup: 'United Arab Emirates',
             marker: {
               color: 'rgb(0,152,255)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'United Arab Emirates',
             offsetgroup: 'United Arab Emirates',
@@ -162,14 +156,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Iraq', 6045]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Iraq'],
             legendgroup: 'Iraq',
             marker: {
               color: 'rgb(0,25,255)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Iraq',
             offsetgroup: 'Iraq',
@@ -186,14 +179,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Libya', 600]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Libya'],
             legendgroup: 'Libya',
             marker: {
               color: 'rgb(0,0,200)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Libya',
             offsetgroup: 'Libya',
@@ -210,14 +202,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Finland', 580]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Finland'],
             legendgroup: 'Finland',
             marker: {
               color: 'rgb(150,0,90)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Finland',
             offsetgroup: 'Finland',
@@ -234,14 +225,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Western Sahara', 1105]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Western Sahara'],
             legendgroup: 'Western Sahara',
             marker: {
               color: 'rgb(255,0,0)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Western Sahara',
             offsetgroup: 'Western Sahara',
@@ -258,14 +248,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Qatar', 815]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Qatar'],
             legendgroup: 'Qatar',
             marker: {
               color: 'rgb(255,111,0)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Qatar',
             offsetgroup: 'Qatar',
@@ -282,14 +271,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Ethiopia', 1350]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Ethiopia'],
             legendgroup: 'Ethiopia',
             marker: {
               color: 'rgb(255,234,0)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Ethiopia',
             offsetgroup: 'Ethiopia',
@@ -306,14 +294,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Serbia', 2037]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Serbia'],
             legendgroup: 'Serbia',
             marker: {
               color: 'rgb(151,255,0)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Serbia',
             offsetgroup: 'Serbia',
@@ -330,14 +317,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Australia', 62146]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Australia'],
             legendgroup: 'Australia',
             marker: {
               color: 'rgb(44,255,150)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Australia',
             offsetgroup: 'Australia',
@@ -354,14 +340,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Uzbekistan', 1828]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Uzbekistan'],
             legendgroup: 'Uzbekistan',
             marker: {
               color: 'rgb(0,152,255)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Uzbekistan',
             offsetgroup: 'Uzbekistan',
@@ -378,14 +363,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Saudi Arabia', 5166]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Saudi Arabia'],
             legendgroup: 'Saudi Arabia',
             marker: {
               color: 'rgb(0,25,255)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Saudi Arabia',
             offsetgroup: 'Saudi Arabia',
@@ -402,14 +386,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Myanmar', 7610]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Myanmar'],
             legendgroup: 'Myanmar',
             marker: {
               color: 'rgb(0,0,200)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Myanmar',
             offsetgroup: 'Myanmar',
@@ -426,14 +409,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Indonesia', 3215]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Indonesia'],
             legendgroup: 'Indonesia',
             marker: {
               color: 'rgb(150,0,90)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Indonesia',
             offsetgroup: 'Indonesia',
@@ -450,14 +432,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Sri Lanka', 1270]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Sri Lanka'],
             legendgroup: 'Sri Lanka',
             marker: {
               color: 'rgb(255,0,0)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Sri Lanka',
             offsetgroup: 'Sri Lanka',
@@ -474,14 +455,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['DR Congo', 740]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['DR Congo'],
             legendgroup: 'DR Congo',
             marker: {
               color: 'rgb(255,111,0)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'DR Congo',
             offsetgroup: 'DR Congo',
@@ -498,14 +478,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['South Korea', 3597]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['South Korea'],
             legendgroup: 'South Korea',
             marker: {
               color: 'rgb(255,234,0)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'South Korea',
             offsetgroup: 'South Korea',
@@ -522,14 +501,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Laos', 304]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Laos'],
             legendgroup: 'Laos',
             marker: {
               color: 'rgb(151,255,0)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Laos',
             offsetgroup: 'Laos',
@@ -546,14 +524,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Iran', 2070]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Iran'],
             legendgroup: 'Iran',
             marker: {
               color: 'rgb(44,255,150)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Iran',
             offsetgroup: 'Iran',
@@ -570,14 +547,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Chile', 16224]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Chile'],
             legendgroup: 'Chile',
             marker: {
               color: 'rgb(0,152,255)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Chile',
             offsetgroup: 'Chile',
@@ -594,14 +570,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Algeria', 5488]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Algeria'],
             legendgroup: 'Algeria',
             marker: {
               color: 'rgb(0,25,255)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Algeria',
             offsetgroup: 'Algeria',
@@ -618,14 +593,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['India', 62675]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['India'],
             legendgroup: 'India',
             marker: {
               color: 'rgb(0,0,200)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'India',
             offsetgroup: 'India',
@@ -642,14 +616,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Armenia', 255]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Armenia'],
             legendgroup: 'Armenia',
             marker: {
               color: 'rgb(150,0,90)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Armenia',
             offsetgroup: 'Armenia',
@@ -666,14 +639,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Turkey', 1907]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Turkey'],
             legendgroup: 'Turkey',
             marker: {
               color: 'rgb(255,0,0)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Turkey',
             offsetgroup: 'Turkey',
@@ -690,14 +662,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Azerbaijan', 250]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Azerbaijan'],
             legendgroup: 'Azerbaijan',
             marker: {
               color: 'rgb(255,111,0)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Azerbaijan',
             offsetgroup: 'Azerbaijan',
@@ -714,14 +685,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Uganda', 1107]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Uganda'],
             legendgroup: 'Uganda',
             marker: {
               color: 'rgb(255,234,0)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Uganda',
             offsetgroup: 'Uganda',
@@ -738,14 +708,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Taiwan', 1715]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Taiwan'],
             legendgroup: 'Taiwan',
             marker: {
               color: 'rgb(151,255,0)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Taiwan',
             offsetgroup: 'Taiwan',
@@ -762,14 +731,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Togo', 470]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Togo'],
             legendgroup: 'Togo',
             marker: {
               color: 'rgb(44,255,150)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Togo',
             offsetgroup: 'Togo',
@@ -786,14 +754,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['United States', 160378]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['United States'],
             legendgroup: 'United States',
             marker: {
               color: 'rgb(0,152,255)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'United States',
             offsetgroup: 'United States',
@@ -810,14 +777,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Colombia', 19074]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Colombia'],
             legendgroup: 'Colombia',
             marker: {
               color: 'rgb(0,25,255)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Colombia',
             offsetgroup: 'Colombia',
@@ -834,14 +800,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Montenegro', 312]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Montenegro'],
             legendgroup: 'Montenegro',
             marker: {
               color: 'rgb(0,0,200)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Montenegro',
             offsetgroup: 'Montenegro',
@@ -858,14 +823,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Thailand', 2065]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Thailand'],
             legendgroup: 'Thailand',
             marker: {
               color: 'rgb(150,0,90)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Thailand',
             offsetgroup: 'Thailand',
@@ -882,14 +846,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['New Zealand', 1238]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['New Zealand'],
             legendgroup: 'New Zealand',
             marker: {
               color: 'rgb(255,0,0)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'New Zealand',
             offsetgroup: 'New Zealand',
@@ -906,14 +869,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Zambia', 1123]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Zambia'],
             legendgroup: 'Zambia',
             marker: {
               color: 'rgb(255,111,0)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Zambia',
             offsetgroup: 'Zambia',
@@ -930,14 +892,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Spain', 20606]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Spain'],
             legendgroup: 'Spain',
             marker: {
               color: 'rgb(255,234,0)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Spain',
             offsetgroup: 'Spain',
@@ -954,14 +915,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Eswatini', 100]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Eswatini'],
             legendgroup: 'Eswatini',
             marker: {
               color: 'rgb(151,255,0)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Eswatini',
             offsetgroup: 'Eswatini',
@@ -978,14 +938,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Holy See', 200]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Holy See'],
             legendgroup: 'Holy See',
             marker: {
               color: 'rgb(44,255,150)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Holy See',
             offsetgroup: 'Holy See',
@@ -1002,14 +961,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Georgia', 100]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Georgia'],
             legendgroup: 'Georgia',
             marker: {
               color: 'rgb(0,152,255)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Georgia',
             offsetgroup: 'Georgia',
@@ -1026,14 +984,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Bahrain', 100]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Bahrain'],
             legendgroup: 'Bahrain',
             marker: {
               color: 'rgb(0,25,255)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Bahrain',
             offsetgroup: 'Bahrain',
@@ -1050,14 +1007,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Nigeria', 1577]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Nigeria'],
             legendgroup: 'Nigeria',
             marker: {
               color: 'rgb(0,0,200)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Nigeria',
             offsetgroup: 'Nigeria',
@@ -1074,14 +1030,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Syria', 490]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Syria'],
             legendgroup: 'Syria',
             marker: {
               color: 'rgb(150,0,90)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Syria',
             offsetgroup: 'Syria',
@@ -1098,14 +1053,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['North Macedonia', 860]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['North Macedonia'],
             legendgroup: 'North Macedonia',
             marker: {
               color: 'rgb(255,0,0)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'North Macedonia',
             offsetgroup: 'North Macedonia',
@@ -1122,14 +1076,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['South Africa', 4742]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['South Africa'],
             legendgroup: 'South Africa',
             marker: {
               color: 'rgb(255,111,0)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'South Africa',
             offsetgroup: 'South Africa',
@@ -1146,14 +1099,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Belarus', 185]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Belarus'],
             legendgroup: 'Belarus',
             marker: {
               color: 'rgb(255,234,0)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Belarus',
             offsetgroup: 'Belarus',
@@ -1170,14 +1122,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Philippines', 11696]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Philippines'],
             legendgroup: 'Philippines',
             marker: {
               color: 'rgb(151,255,0)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Philippines',
             offsetgroup: 'Philippines',
@@ -1194,14 +1145,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Bulgaria', 1375]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Bulgaria'],
             legendgroup: 'Bulgaria',
             marker: {
               color: 'rgb(44,255,150)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Bulgaria',
             offsetgroup: 'Bulgaria',
@@ -1218,14 +1168,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Vietnam', 16572]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Vietnam'],
             legendgroup: 'Vietnam',
             marker: {
               color: 'rgb(0,152,255)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Vietnam',
             offsetgroup: 'Vietnam',
@@ -1242,14 +1191,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Kosovo', 180]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Kosovo'],
             legendgroup: 'Kosovo',
             marker: {
               color: 'rgb(0,25,255)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Kosovo',
             offsetgroup: 'Kosovo',
@@ -1266,14 +1214,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Poland', 1153]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Poland'],
             legendgroup: 'Poland',
             marker: {
               color: 'rgb(0,0,200)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Poland',
             offsetgroup: 'Poland',
@@ -1290,14 +1237,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Portugal', 2919]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Portugal'],
             legendgroup: 'Portugal',
             marker: {
               color: 'rgb(150,0,90)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Portugal',
             offsetgroup: 'Portugal',
@@ -1314,14 +1260,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Mexico', 21269]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Mexico'],
             legendgroup: 'Mexico',
             marker: {
               color: 'rgb(255,0,0)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Mexico',
             offsetgroup: 'Mexico',
@@ -1338,14 +1283,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Zimbabwe', 2450]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Zimbabwe'],
             legendgroup: 'Zimbabwe',
             marker: {
               color: 'rgb(255,111,0)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Zimbabwe',
             offsetgroup: 'Zimbabwe',
@@ -1362,14 +1306,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Peru', 904]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Peru'],
             legendgroup: 'Peru',
             marker: {
               color: 'rgb(255,234,0)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Peru',
             offsetgroup: 'Peru',
@@ -1386,14 +1329,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Greece', 43158]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Greece'],
             legendgroup: 'Greece',
             marker: {
               color: 'rgb(151,255,0)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Greece',
             offsetgroup: 'Greece',
@@ -1410,14 +1352,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Ireland', 560]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Ireland'],
             legendgroup: 'Ireland',
             marker: {
               color: 'rgb(44,255,150)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Ireland',
             offsetgroup: 'Ireland',
@@ -1434,14 +1375,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Albania', 640]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Albania'],
             legendgroup: 'Albania',
             marker: {
               color: 'rgb(0,152,255)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Albania',
             offsetgroup: 'Albania',
@@ -1458,14 +1398,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Pakistan', 3515]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Pakistan'],
             legendgroup: 'Pakistan',
             marker: {
               color: 'rgb(0,25,255)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Pakistan',
             offsetgroup: 'Pakistan',
@@ -1482,14 +1421,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Israel', 857]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Israel'],
             legendgroup: 'Israel',
             marker: {
               color: 'rgb(0,0,200)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Israel',
             offsetgroup: 'Israel',
@@ -1506,14 +1444,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['France', 2489]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['France'],
             legendgroup: 'France',
             marker: {
               color: 'rgb(150,0,90)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'France',
             offsetgroup: 'France',
@@ -1530,14 +1467,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Egypt', 4073]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Egypt'],
             legendgroup: 'Egypt',
             marker: {
               color: 'rgb(255,0,0)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Egypt',
             offsetgroup: 'Egypt',
@@ -1554,14 +1490,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Bangladesh', 3760]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Bangladesh'],
             legendgroup: 'Bangladesh',
             marker: {
               color: 'rgb(255,111,0)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Bangladesh',
             offsetgroup: 'Bangladesh',
@@ -1578,14 +1513,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Hong Kong', 230]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Hong Kong'],
             legendgroup: 'Hong Kong',
             marker: {
               color: 'rgb(255,234,0)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Hong Kong',
             offsetgroup: 'Hong Kong',
@@ -1602,14 +1536,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Ghana', 1752]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Ghana'],
             legendgroup: 'Ghana',
             marker: {
               color: 'rgb(151,255,0)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Ghana',
             offsetgroup: 'Ghana',
@@ -1626,14 +1559,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Argentina', 1364]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Argentina'],
             legendgroup: 'Argentina',
             marker: {
               color: 'rgb(44,255,150)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Argentina',
             offsetgroup: 'Argentina',
@@ -1650,14 +1582,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Chad', 742]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Chad'],
             legendgroup: 'Chad',
             marker: {
               color: 'rgb(0,152,255)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Chad',
             offsetgroup: 'Chad',
@@ -1674,14 +1605,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Gabon', 370]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Gabon'],
             legendgroup: 'Gabon',
             marker: {
               color: 'rgb(0,25,255)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Gabon',
             offsetgroup: 'Gabon',
@@ -1698,14 +1628,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Denmark', 1471]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Denmark'],
             legendgroup: 'Denmark',
             marker: {
               color: 'rgb(0,0,200)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Denmark',
             offsetgroup: 'Denmark',
@@ -1722,14 +1651,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Tanzania', 210]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Tanzania'],
             legendgroup: 'Tanzania',
             marker: {
               color: 'rgb(150,0,90)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Tanzania',
             offsetgroup: 'Tanzania',
@@ -1746,14 +1674,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Malaysia', 2766]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Malaysia'],
             legendgroup: 'Malaysia',
             marker: {
               color: 'rgb(255,0,0)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Malaysia',
             offsetgroup: 'Malaysia',
@@ -1770,14 +1697,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Tunisia', 1000]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Tunisia'],
             legendgroup: 'Tunisia',
             marker: {
               color: 'rgb(255,111,0)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Tunisia',
             offsetgroup: 'Tunisia',
@@ -1794,14 +1720,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Singapore', 559]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Singapore'],
             legendgroup: 'Singapore',
             marker: {
               color: 'rgb(255,234,0)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Singapore',
             offsetgroup: 'Singapore',
@@ -1818,14 +1743,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Italy', 2468]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Italy'],
             legendgroup: 'Italy',
             marker: {
               color: 'rgb(151,255,0)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Italy',
             offsetgroup: 'Italy',
@@ -1842,14 +1766,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Panama', 177]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Panama'],
             legendgroup: 'Panama',
             marker: {
               color: 'rgb(44,255,150)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Panama',
             offsetgroup: 'Panama',
@@ -1866,14 +1789,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Dominican Republic', 765]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Dominican Republic'],
             legendgroup: 'Dominican Republic',
             marker: {
               color: 'rgb(0,152,255)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Dominican Republic',
             offsetgroup: 'Dominican Republic',
@@ -1890,14 +1812,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Romania', 1353]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Romania'],
             legendgroup: 'Romania',
             marker: {
               color: 'rgb(0,25,255)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Romania',
             offsetgroup: 'Romania',
@@ -1914,14 +1835,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Jordan', 1731]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Jordan'],
             legendgroup: 'Jordan',
             marker: {
               color: 'rgb(0,0,200)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Jordan',
             offsetgroup: 'Jordan',
@@ -1938,14 +1858,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Angola', 460]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Angola'],
             legendgroup: 'Angola',
             marker: {
               color: 'rgb(150,0,90)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Angola',
             offsetgroup: 'Angola',
@@ -1962,14 +1881,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Cuba', 114]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Cuba'],
             legendgroup: 'Cuba',
             marker: {
               color: 'rgb(255,0,0)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Cuba',
             offsetgroup: 'Cuba',
@@ -1986,14 +1904,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['The Gambia', 170]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['The Gambia'],
             legendgroup: 'The Gambia',
             marker: {
               color: 'rgb(255,111,0)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'The Gambia',
             offsetgroup: 'The Gambia',
@@ -2010,14 +1927,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Canada', 2589]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Canada'],
             legendgroup: 'Canada',
             marker: {
               color: 'rgb(255,234,0)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Canada',
             offsetgroup: 'Canada',
@@ -2034,14 +1950,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Bosnia and Herzegovina', 786]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Bosnia and Herzegovina'],
             legendgroup: 'Bosnia and Herzegovina',
             marker: {
               color: 'rgb(151,255,0)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Bosnia and Herzegovina',
             offsetgroup: 'Bosnia and Herzegovina',
@@ -2058,14 +1973,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Trinidad and Tobago', 112]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Trinidad and Tobago'],
             legendgroup: 'Trinidad and Tobago',
             marker: {
               color: 'rgb(44,255,150)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Trinidad and Tobago',
             offsetgroup: 'Trinidad and Tobago',
@@ -2082,14 +1996,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['French Guiana', 55]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['French Guiana'],
             legendgroup: 'French Guiana',
             marker: {
               color: 'rgb(0,152,255)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'French Guiana',
             offsetgroup: 'French Guiana',
@@ -2106,14 +2019,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Ukraine', 1837]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Ukraine'],
             legendgroup: 'Ukraine',
             marker: {
               color: 'rgb(0,25,255)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Ukraine',
             offsetgroup: 'Ukraine',
@@ -2130,14 +2042,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Bolivia', 160]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Bolivia'],
             legendgroup: 'Bolivia',
             marker: {
               color: 'rgb(0,0,200)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Bolivia',
             offsetgroup: 'Bolivia',
@@ -2154,14 +2065,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Bhutan', 320]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Bhutan'],
             legendgroup: 'Bhutan',
             marker: {
               color: 'rgb(150,0,90)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Bhutan',
             offsetgroup: 'Bhutan',
@@ -2178,14 +2088,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Brazil', 36329]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Brazil'],
             legendgroup: 'Brazil',
             marker: {
               color: 'rgb(255,0,0)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Brazil',
             offsetgroup: 'Brazil',
@@ -2202,14 +2111,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['El Salvador', 265]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['El Salvador'],
             legendgroup: 'El Salvador',
             marker: {
               color: 'rgb(255,111,0)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'El Salvador',
             offsetgroup: 'El Salvador',
@@ -2226,14 +2134,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['China', 139994]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['China'],
             legendgroup: 'China',
             marker: {
               color: 'rgb(255,234,0)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'China',
             offsetgroup: 'China',
@@ -2250,14 +2157,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Germany', 4433]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Germany'],
             legendgroup: 'Germany',
             marker: {
               color: 'rgb(151,255,0)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Germany',
             offsetgroup: 'Germany',
@@ -2274,14 +2180,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Kazakhstan', 1603]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Kazakhstan'],
             legendgroup: 'Kazakhstan',
             marker: {
               color: 'rgb(44,255,150)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Kazakhstan',
             offsetgroup: 'Kazakhstan',
@@ -2298,14 +2203,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Botswana', 200]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Botswana'],
             legendgroup: 'Botswana',
             marker: {
               color: 'rgb(0,152,255)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Botswana',
             offsetgroup: 'Botswana',
@@ -2322,14 +2226,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Croatia', 1774]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Croatia'],
             legendgroup: 'Croatia',
             marker: {
               color: 'rgb(0,25,255)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Croatia',
             offsetgroup: 'Croatia',
@@ -2346,14 +2249,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Cambodia', 635]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Cambodia'],
             legendgroup: 'Cambodia',
             marker: {
               color: 'rgb(0,0,200)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Cambodia',
             offsetgroup: 'Cambodia',
@@ -2370,14 +2272,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Djibouti', 530]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Djibouti'],
             legendgroup: 'Djibouti',
             marker: {
               color: 'rgb(150,0,90)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Djibouti',
             offsetgroup: 'Djibouti',
@@ -2394,14 +2295,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Mozambique', 481]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Mozambique'],
             legendgroup: 'Mozambique',
             marker: {
               color: 'rgb(255,0,0)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Mozambique',
             offsetgroup: 'Mozambique',
@@ -2418,14 +2318,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Mali', 426]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Mali'],
             legendgroup: 'Mali',
             marker: {
               color: 'rgb(255,111,0)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Mali',
             offsetgroup: 'Mali',
@@ -2442,14 +2341,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Belgium', 233]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Belgium'],
             legendgroup: 'Belgium',
             marker: {
               color: 'rgb(255,234,0)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Belgium',
             offsetgroup: 'Belgium',
@@ -2466,14 +2364,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Guatemala', 93]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Guatemala'],
             legendgroup: 'Guatemala',
             marker: {
               color: 'rgb(151,255,0)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Guatemala',
             offsetgroup: 'Guatemala',
@@ -2490,14 +2387,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Namibia', 272]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Namibia'],
             legendgroup: 'Namibia',
             marker: {
               color: 'rgb(44,255,150)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Namibia',
             offsetgroup: 'Namibia',
@@ -2514,14 +2410,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Netherlands', 1392]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Netherlands'],
             legendgroup: 'Netherlands',
             marker: {
               color: 'rgb(0,152,255)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Netherlands',
             offsetgroup: 'Netherlands',
@@ -2538,14 +2433,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Ecuador', 955]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Ecuador'],
             legendgroup: 'Ecuador',
             marker: {
               color: 'rgb(0,25,255)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Ecuador',
             offsetgroup: 'Ecuador',
@@ -2562,14 +2456,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Japan', 10535]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Japan'],
             legendgroup: 'Japan',
             marker: {
               color: 'rgb(0,0,200)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Japan',
             offsetgroup: 'Japan',
@@ -2586,14 +2479,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Kenya', 674]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Kenya'],
             legendgroup: 'Kenya',
             marker: {
               color: 'rgb(150,0,90)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Kenya',
             offsetgroup: 'Kenya',
@@ -2610,14 +2502,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Slovakia', 83]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Slovakia'],
             legendgroup: 'Slovakia',
             marker: {
               color: 'rgb(255,0,0)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Slovakia',
             offsetgroup: 'Slovakia',
@@ -2634,14 +2525,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Guinea', 122]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Guinea'],
             legendgroup: 'Guinea',
             marker: {
               color: 'rgb(255,111,0)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Guinea',
             offsetgroup: 'Guinea',
@@ -2658,14 +2548,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Cameroon', 122]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Cameroon'],
             legendgroup: 'Cameroon',
             marker: {
               color: 'rgb(255,234,0)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Cameroon',
             offsetgroup: 'Cameroon',
@@ -2682,14 +2571,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Niger', 80]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Niger'],
             legendgroup: 'Niger',
             marker: {
               color: 'rgb(151,255,0)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Niger',
             offsetgroup: 'Niger',
@@ -2706,14 +2594,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Nicaragua', 280]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Nicaragua'],
             legendgroup: 'Nicaragua',
             marker: {
               color: 'rgb(44,255,150)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Nicaragua',
             offsetgroup: 'Nicaragua',
@@ -2730,14 +2617,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['United Kingdom', 10255]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['United Kingdom'],
             legendgroup: 'United Kingdom',
             marker: {
               color: 'rgb(0,152,255)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'United Kingdom',
             offsetgroup: 'United Kingdom',
@@ -2754,14 +2640,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Guam', 236]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Guam'],
             legendgroup: 'Guam',
             marker: {
               color: 'rgb(0,25,255)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Guam',
             offsetgroup: 'Guam',
@@ -2778,14 +2663,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Honduras', 572]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Honduras'],
             legendgroup: 'Honduras',
             marker: {
               color: 'rgb(0,0,200)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Honduras',
             offsetgroup: 'Honduras',
@@ -2802,14 +2686,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Uruguay', 190]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Uruguay'],
             legendgroup: 'Uruguay',
             marker: {
               color: 'rgb(150,0,90)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Uruguay',
             offsetgroup: 'Uruguay',
@@ -2826,14 +2709,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Saint Kitts and Nevis', 38]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Saint Kitts and Nevis'],
             legendgroup: 'Saint Kitts and Nevis',
             marker: {
               color: 'rgb(255,0,0)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Saint Kitts and Nevis',
             offsetgroup: 'Saint Kitts and Nevis',
@@ -2850,14 +2732,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Jamaica', 263]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Jamaica'],
             legendgroup: 'Jamaica',
             marker: {
               color: 'rgb(255,111,0)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Jamaica',
             offsetgroup: 'Jamaica',
@@ -2874,14 +2755,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Puerto Rico', 591]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Puerto Rico'],
             legendgroup: 'Puerto Rico',
             marker: {
               color: 'rgb(255,234,0)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Puerto Rico',
             offsetgroup: 'Puerto Rico',
@@ -2898,14 +2778,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Malawi', 221]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Malawi'],
             legendgroup: 'Malawi',
             marker: {
               color: 'rgb(151,255,0)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Malawi',
             offsetgroup: 'Malawi',
@@ -2922,14 +2801,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Maldives', 36]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Maldives'],
             legendgroup: 'Maldives',
             marker: {
               color: 'rgb(44,255,150)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Maldives',
             offsetgroup: 'Maldives',
@@ -2946,14 +2824,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [["C\u00f4te d'Ivoire", 234]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ["C\u00f4te d'Ivoire"],
             legendgroup: "C\u00f4te d'Ivoire",
             marker: {
               color: 'rgb(0,152,255)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: "C\u00f4te d'Ivoire",
             offsetgroup: "C\u00f4te d'Ivoire",
@@ -2970,14 +2847,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Russia', 1423]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Russia'],
             legendgroup: 'Russia',
             marker: {
               color: 'rgb(0,25,255)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Russia',
             offsetgroup: 'Russia',
@@ -2994,14 +2870,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Sierra Leone', 95]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Sierra Leone'],
             legendgroup: 'Sierra Leone',
             marker: {
               color: 'rgb(0,0,200)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Sierra Leone',
             offsetgroup: 'Sierra Leone',
@@ -3018,14 +2893,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Mauritania', 95]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Mauritania'],
             legendgroup: 'Mauritania',
             marker: {
               color: 'rgb(150,0,90)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Mauritania',
             offsetgroup: 'Mauritania',
@@ -3042,14 +2916,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Hungary', 334]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Hungary'],
             legendgroup: 'Hungary',
             marker: {
               color: 'rgb(255,0,0)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Hungary',
             offsetgroup: 'Hungary',
@@ -3066,14 +2939,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Haiti', 90]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Haiti'],
             legendgroup: 'Haiti',
             marker: {
               color: 'rgb(255,111,0)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Haiti',
             offsetgroup: 'Haiti',
@@ -3090,14 +2962,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Lesotho', 90]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Lesotho'],
             legendgroup: 'Lesotho',
             marker: {
               color: 'rgb(255,234,0)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Lesotho',
             offsetgroup: 'Lesotho',
@@ -3114,14 +2985,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Kyrgyzstan', 30]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Kyrgyzstan'],
             legendgroup: 'Kyrgyzstan',
             marker: {
               color: 'rgb(151,255,0)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Kyrgyzstan',
             offsetgroup: 'Kyrgyzstan',
@@ -3138,14 +3008,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['New Caledonia', 30]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['New Caledonia'],
             legendgroup: 'New Caledonia',
             marker: {
               color: 'rgb(44,255,150)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'New Caledonia',
             offsetgroup: 'New Caledonia',
@@ -3162,14 +3031,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Brunei', 30]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Brunei'],
             legendgroup: 'Brunei',
             marker: {
               color: 'rgb(0,152,255)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Brunei',
             offsetgroup: 'Brunei',
@@ -3186,14 +3054,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Burkina Faso', 264]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Burkina Faso'],
             legendgroup: 'Burkina Faso',
             marker: {
               color: 'rgb(0,25,255)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Burkina Faso',
             offsetgroup: 'Burkina Faso',
@@ -3210,14 +3077,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Czech Republic', 87]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Czech Republic'],
             legendgroup: 'Czech Republic',
             marker: {
               color: 'rgb(0,0,200)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Czech Republic',
             offsetgroup: 'Czech Republic',
@@ -3234,14 +3100,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Senegal', 242]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Senegal'],
             legendgroup: 'Senegal',
             marker: {
               color: 'rgb(150,0,90)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Senegal',
             offsetgroup: 'Senegal',
@@ -3258,14 +3123,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Central African Republic', 25]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Central African Republic'],
             legendgroup: 'Central African Republic',
             marker: {
               color: 'rgb(255,0,0)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Central African Republic',
             offsetgroup: 'Central African Republic',
@@ -3282,14 +3146,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Benin', 50]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Benin'],
             legendgroup: 'Benin',
             marker: {
               color: 'rgb(255,111,0)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Benin',
             offsetgroup: 'Benin',
@@ -3306,14 +3169,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Nepal', 25]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Nepal'],
             legendgroup: 'Nepal',
             marker: {
               color: 'rgb(255,234,0)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Nepal',
             offsetgroup: 'Nepal',
@@ -3330,14 +3192,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Austria', 24]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Austria'],
             legendgroup: 'Austria',
             marker: {
               color: 'rgb(151,255,0)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Austria',
             offsetgroup: 'Austria',
@@ -3354,14 +3215,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Mongolia', 70]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Mongolia'],
             legendgroup: 'Mongolia',
             marker: {
               color: 'rgb(44,255,150)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Mongolia',
             offsetgroup: 'Mongolia',
@@ -3378,14 +3238,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Sweden', 46]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Sweden'],
             legendgroup: 'Sweden',
             marker: {
               color: 'rgb(0,152,255)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Sweden',
             offsetgroup: 'Sweden',
@@ -3402,14 +3261,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Guinea-Bissau', 20]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Guinea-Bissau'],
             legendgroup: 'Guinea-Bissau',
             marker: {
               color: 'rgb(0,25,255)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Guinea-Bissau',
             offsetgroup: 'Guinea-Bissau',
@@ -3426,14 +3284,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Barbados', 20]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Barbados'],
             legendgroup: 'Barbados',
             marker: {
               color: 'rgb(0,0,200)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Barbados',
             offsetgroup: 'Barbados',
@@ -3450,14 +3307,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Liberia', 20]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Liberia'],
             legendgroup: 'Liberia',
             marker: {
               color: 'rgb(150,0,90)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Liberia',
             offsetgroup: 'Liberia',
@@ -3474,14 +3330,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Madagascar', 40]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Madagascar'],
             legendgroup: 'Madagascar',
             marker: {
               color: 'rgb(255,0,0)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Madagascar',
             offsetgroup: 'Madagascar',
@@ -3498,14 +3353,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['South Sudan', 20]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['South Sudan'],
             legendgroup: 'South Sudan',
             marker: {
               color: 'rgb(255,111,0)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'South Sudan',
             offsetgroup: 'South Sudan',
@@ -3522,14 +3376,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Sudan', 10]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Sudan'],
             legendgroup: 'Sudan',
             marker: {
               color: 'rgb(255,234,0)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Sudan',
             offsetgroup: 'Sudan',
@@ -3546,14 +3399,13 @@ export default function Results() {
             alignmentgroup: 'True',
             customdata: [['Somalia', 10]],
             hovertemplate:
-              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
+              '<b>Country:</b> %{customdata[0]}<br><br>Average Capacity (MW): %{y}<br>All-farms Total Capacity (MW): %{customdata[1]}<br>Region: %{x}',
             hovertext: ['Somalia'],
             legendgroup: 'Somalia',
             marker: {
               color: 'rgb(151,255,0)',
               opacity: 0.85,
               pattern: { shape: '' },
-              line: { width: 0 },
             },
             name: 'Somalia',
             offsetgroup: 'Somalia',
@@ -3570,147 +3422,6 @@ export default function Results() {
         {
           template: {
             data: {
-              histogram2dcontour: [
-                {
-                  type: 'histogram2dcontour',
-                  colorbar: { outlinewidth: 0, ticks: '' },
-                  colorscale: [
-                    [0.0, '#0d0887'],
-                    [0.1111111111111111, '#46039f'],
-                    [0.2222222222222222, '#7201a8'],
-                    [0.3333333333333333, '#9c179e'],
-                    [0.4444444444444444, '#bd3786'],
-                    [0.5555555555555556, '#d8576b'],
-                    [0.6666666666666666, '#ed7953'],
-                    [0.7777777777777778, '#fb9f3a'],
-                    [0.8888888888888888, '#fdca26'],
-                    [1.0, '#f0f921'],
-                  ],
-                },
-              ],
-              choropleth: [
-                {
-                  type: 'choropleth',
-                  colorbar: { outlinewidth: 0, ticks: '' },
-                },
-              ],
-              histogram2d: [
-                {
-                  type: 'histogram2d',
-                  colorbar: { outlinewidth: 0, ticks: '' },
-                  colorscale: [
-                    [0.0, '#0d0887'],
-                    [0.1111111111111111, '#46039f'],
-                    [0.2222222222222222, '#7201a8'],
-                    [0.3333333333333333, '#9c179e'],
-                    [0.4444444444444444, '#bd3786'],
-                    [0.5555555555555556, '#d8576b'],
-                    [0.6666666666666666, '#ed7953'],
-                    [0.7777777777777778, '#fb9f3a'],
-                    [0.8888888888888888, '#fdca26'],
-                    [1.0, '#f0f921'],
-                  ],
-                },
-              ],
-              heatmap: [
-                {
-                  type: 'heatmap',
-                  colorbar: { outlinewidth: 0, ticks: '' },
-                  colorscale: [
-                    [0.0, '#0d0887'],
-                    [0.1111111111111111, '#46039f'],
-                    [0.2222222222222222, '#7201a8'],
-                    [0.3333333333333333, '#9c179e'],
-                    [0.4444444444444444, '#bd3786'],
-                    [0.5555555555555556, '#d8576b'],
-                    [0.6666666666666666, '#ed7953'],
-                    [0.7777777777777778, '#fb9f3a'],
-                    [0.8888888888888888, '#fdca26'],
-                    [1.0, '#f0f921'],
-                  ],
-                },
-              ],
-              heatmapgl: [
-                {
-                  type: 'heatmapgl',
-                  colorbar: { outlinewidth: 0, ticks: '' },
-                  colorscale: [
-                    [0.0, '#0d0887'],
-                    [0.1111111111111111, '#46039f'],
-                    [0.2222222222222222, '#7201a8'],
-                    [0.3333333333333333, '#9c179e'],
-                    [0.4444444444444444, '#bd3786'],
-                    [0.5555555555555556, '#d8576b'],
-                    [0.6666666666666666, '#ed7953'],
-                    [0.7777777777777778, '#fb9f3a'],
-                    [0.8888888888888888, '#fdca26'],
-                    [1.0, '#f0f921'],
-                  ],
-                },
-              ],
-              contourcarpet: [
-                {
-                  type: 'contourcarpet',
-                  colorbar: { outlinewidth: 0, ticks: '' },
-                },
-              ],
-              contour: [
-                {
-                  type: 'contour',
-                  colorbar: { outlinewidth: 0, ticks: '' },
-                  colorscale: [
-                    [0.0, '#0d0887'],
-                    [0.1111111111111111, '#46039f'],
-                    [0.2222222222222222, '#7201a8'],
-                    [0.3333333333333333, '#9c179e'],
-                    [0.4444444444444444, '#bd3786'],
-                    [0.5555555555555556, '#d8576b'],
-                    [0.6666666666666666, '#ed7953'],
-                    [0.7777777777777778, '#fb9f3a'],
-                    [0.8888888888888888, '#fdca26'],
-                    [1.0, '#f0f921'],
-                  ],
-                },
-              ],
-              surface: [
-                {
-                  type: 'surface',
-                  colorbar: { outlinewidth: 0, ticks: '' },
-                  colorscale: [
-                    [0.0, '#0d0887'],
-                    [0.1111111111111111, '#46039f'],
-                    [0.2222222222222222, '#7201a8'],
-                    [0.3333333333333333, '#9c179e'],
-                    [0.4444444444444444, '#bd3786'],
-                    [0.5555555555555556, '#d8576b'],
-                    [0.6666666666666666, '#ed7953'],
-                    [0.7777777777777778, '#fb9f3a'],
-                    [0.8888888888888888, '#fdca26'],
-                    [1.0, '#f0f921'],
-                  ],
-                },
-              ],
-              mesh3d: [
-                { type: 'mesh3d', colorbar: { outlinewidth: 0, ticks: '' } },
-              ],
-              scatter: [
-                {
-                  fillpattern: { fillmode: 'overlay', size: 10, solidity: 0.2 },
-                  type: 'scatter',
-                },
-              ],
-              parcoords: [
-                {
-                  type: 'parcoords',
-                  line: { colorbar: { outlinewidth: 0, ticks: '' } },
-                },
-              ],
-              scatterpolargl: [
-                {
-                  type: 'scatterpolargl',
-                  marker: { colorbar: { outlinewidth: 0, ticks: '' } },
-                },
-              ],
               bar: [
                 {
                   error_x: { color: '#2a3f5f' },
@@ -3722,55 +3433,13 @@ export default function Results() {
                   type: 'bar',
                 },
               ],
-              scattergeo: [
-                {
-                  type: 'scattergeo',
-                  marker: { colorbar: { outlinewidth: 0, ticks: '' } },
-                },
-              ],
-              scatterpolar: [
-                {
-                  type: 'scatterpolar',
-                  marker: { colorbar: { outlinewidth: 0, ticks: '' } },
-                },
-              ],
-              histogram: [
+              barpolar: [
                 {
                   marker: {
+                    line: { color: '#E5ECF6', width: 0.5 },
                     pattern: { fillmode: 'overlay', size: 10, solidity: 0.2 },
                   },
-                  type: 'histogram',
-                },
-              ],
-              scattergl: [
-                {
-                  type: 'scattergl',
-                  marker: { colorbar: { outlinewidth: 0, ticks: '' } },
-                },
-              ],
-              scatter3d: [
-                {
-                  type: 'scatter3d',
-                  line: { colorbar: { outlinewidth: 0, ticks: '' } },
-                  marker: { colorbar: { outlinewidth: 0, ticks: '' } },
-                },
-              ],
-              scattermapbox: [
-                {
-                  type: 'scattermapbox',
-                  marker: { colorbar: { outlinewidth: 0, ticks: '' } },
-                },
-              ],
-              scatterternary: [
-                {
-                  type: 'scatterternary',
-                  marker: { colorbar: { outlinewidth: 0, ticks: '' } },
-                },
-              ],
-              scattercarpet: [
-                {
-                  type: 'scattercarpet',
-                  marker: { colorbar: { outlinewidth: 0, ticks: '' } },
+                  type: 'barpolar',
                 },
               ],
               carpet: [
@@ -3792,6 +3461,199 @@ export default function Results() {
                   type: 'carpet',
                 },
               ],
+              choropleth: [
+                {
+                  colorbar: { outlinewidth: 0, ticks: '' },
+                  type: 'choropleth',
+                },
+              ],
+              contour: [
+                {
+                  colorbar: { outlinewidth: 0, ticks: '' },
+                  colorscale: [
+                    [0.0, '#0d0887'],
+                    [0.1111111111111111, '#46039f'],
+                    [0.2222222222222222, '#7201a8'],
+                    [0.3333333333333333, '#9c179e'],
+                    [0.4444444444444444, '#bd3786'],
+                    [0.5555555555555556, '#d8576b'],
+                    [0.6666666666666666, '#ed7953'],
+                    [0.7777777777777778, '#fb9f3a'],
+                    [0.8888888888888888, '#fdca26'],
+                    [1.0, '#f0f921'],
+                  ],
+                  type: 'contour',
+                },
+              ],
+              contourcarpet: [
+                {
+                  colorbar: { outlinewidth: 0, ticks: '' },
+                  type: 'contourcarpet',
+                },
+              ],
+              heatmap: [
+                {
+                  colorbar: { outlinewidth: 0, ticks: '' },
+                  colorscale: [
+                    [0.0, '#0d0887'],
+                    [0.1111111111111111, '#46039f'],
+                    [0.2222222222222222, '#7201a8'],
+                    [0.3333333333333333, '#9c179e'],
+                    [0.4444444444444444, '#bd3786'],
+                    [0.5555555555555556, '#d8576b'],
+                    [0.6666666666666666, '#ed7953'],
+                    [0.7777777777777778, '#fb9f3a'],
+                    [0.8888888888888888, '#fdca26'],
+                    [1.0, '#f0f921'],
+                  ],
+                  type: 'heatmap',
+                },
+              ],
+              heatmapgl: [
+                {
+                  colorbar: { outlinewidth: 0, ticks: '' },
+                  colorscale: [
+                    [0.0, '#0d0887'],
+                    [0.1111111111111111, '#46039f'],
+                    [0.2222222222222222, '#7201a8'],
+                    [0.3333333333333333, '#9c179e'],
+                    [0.4444444444444444, '#bd3786'],
+                    [0.5555555555555556, '#d8576b'],
+                    [0.6666666666666666, '#ed7953'],
+                    [0.7777777777777778, '#fb9f3a'],
+                    [0.8888888888888888, '#fdca26'],
+                    [1.0, '#f0f921'],
+                  ],
+                  type: 'heatmapgl',
+                },
+              ],
+              histogram: [
+                {
+                  marker: {
+                    pattern: { fillmode: 'overlay', size: 10, solidity: 0.2 },
+                  },
+                  type: 'histogram',
+                },
+              ],
+              histogram2d: [
+                {
+                  colorbar: { outlinewidth: 0, ticks: '' },
+                  colorscale: [
+                    [0.0, '#0d0887'],
+                    [0.1111111111111111, '#46039f'],
+                    [0.2222222222222222, '#7201a8'],
+                    [0.3333333333333333, '#9c179e'],
+                    [0.4444444444444444, '#bd3786'],
+                    [0.5555555555555556, '#d8576b'],
+                    [0.6666666666666666, '#ed7953'],
+                    [0.7777777777777778, '#fb9f3a'],
+                    [0.8888888888888888, '#fdca26'],
+                    [1.0, '#f0f921'],
+                  ],
+                  type: 'histogram2d',
+                },
+              ],
+              histogram2dcontour: [
+                {
+                  colorbar: { outlinewidth: 0, ticks: '' },
+                  colorscale: [
+                    [0.0, '#0d0887'],
+                    [0.1111111111111111, '#46039f'],
+                    [0.2222222222222222, '#7201a8'],
+                    [0.3333333333333333, '#9c179e'],
+                    [0.4444444444444444, '#bd3786'],
+                    [0.5555555555555556, '#d8576b'],
+                    [0.6666666666666666, '#ed7953'],
+                    [0.7777777777777778, '#fb9f3a'],
+                    [0.8888888888888888, '#fdca26'],
+                    [1.0, '#f0f921'],
+                  ],
+                  type: 'histogram2dcontour',
+                },
+              ],
+              mesh3d: [
+                { colorbar: { outlinewidth: 0, ticks: '' }, type: 'mesh3d' },
+              ],
+              parcoords: [
+                {
+                  line: { colorbar: { outlinewidth: 0, ticks: '' } },
+                  type: 'parcoords',
+                },
+              ],
+              pie: [{ automargin: true, type: 'pie' }],
+              scatter: [
+                {
+                  marker: { colorbar: { outlinewidth: 0, ticks: '' } },
+                  type: 'scatter',
+                },
+              ],
+              scatter3d: [
+                {
+                  line: { colorbar: { outlinewidth: 0, ticks: '' } },
+                  marker: { colorbar: { outlinewidth: 0, ticks: '' } },
+                  type: 'scatter3d',
+                },
+              ],
+              scattercarpet: [
+                {
+                  marker: { colorbar: { outlinewidth: 0, ticks: '' } },
+                  type: 'scattercarpet',
+                },
+              ],
+              scattergeo: [
+                {
+                  marker: { colorbar: { outlinewidth: 0, ticks: '' } },
+                  type: 'scattergeo',
+                },
+              ],
+              scattergl: [
+                {
+                  marker: { colorbar: { outlinewidth: 0, ticks: '' } },
+                  type: 'scattergl',
+                },
+              ],
+              scattermapbox: [
+                {
+                  marker: { colorbar: { outlinewidth: 0, ticks: '' } },
+                  type: 'scattermapbox',
+                },
+              ],
+              scatterpolar: [
+                {
+                  marker: { colorbar: { outlinewidth: 0, ticks: '' } },
+                  type: 'scatterpolar',
+                },
+              ],
+              scatterpolargl: [
+                {
+                  marker: { colorbar: { outlinewidth: 0, ticks: '' } },
+                  type: 'scatterpolargl',
+                },
+              ],
+              scatterternary: [
+                {
+                  marker: { colorbar: { outlinewidth: 0, ticks: '' } },
+                  type: 'scatterternary',
+                },
+              ],
+              surface: [
+                {
+                  colorbar: { outlinewidth: 0, ticks: '' },
+                  colorscale: [
+                    [0.0, '#0d0887'],
+                    [0.1111111111111111, '#46039f'],
+                    [0.2222222222222222, '#7201a8'],
+                    [0.3333333333333333, '#9c179e'],
+                    [0.4444444444444444, '#bd3786'],
+                    [0.5555555555555556, '#d8576b'],
+                    [0.6666666666666666, '#ed7953'],
+                    [0.7777777777777778, '#fb9f3a'],
+                    [0.8888888888888888, '#fdca26'],
+                    [1.0, '#f0f921'],
+                  ],
+                  type: 'surface',
+                },
+              ],
               table: [
                 {
                   cells: {
@@ -3805,57 +3667,29 @@ export default function Results() {
                   type: 'table',
                 },
               ],
-              barpolar: [
-                {
-                  marker: {
-                    line: { color: '#E5ECF6', width: 0.5 },
-                    pattern: { fillmode: 'overlay', size: 10, solidity: 0.2 },
-                  },
-                  type: 'barpolar',
-                },
-              ],
-              pie: [{ automargin: true, type: 'pie' }],
             },
             layout: {
+              annotationdefaults: {
+                arrowcolor: '#2a3f5f',
+                arrowhead: 0,
+                arrowwidth: 1,
+              },
               autotypenumbers: 'strict',
-              colorway: [
-                '#636efa',
-                '#EF553B',
-                '#00cc96',
-                '#ab63fa',
-                '#FFA15A',
-                '#19d3f3',
-                '#FF6692',
-                '#B6E880',
-                '#FF97FF',
-                '#FECB52',
-              ],
-              font: { color: '#2a3f5f' },
-              hovermode: 'closest',
-              hoverlabel: { align: 'left' },
-              paper_bgcolor: 'white',
-              plot_bgcolor: '#E5ECF6',
-              polar: {
-                bgcolor: '#E5ECF6',
-                angularaxis: {
-                  gridcolor: 'white',
-                  linecolor: 'white',
-                  ticks: '',
-                },
-                radialaxis: {
-                  gridcolor: 'white',
-                  linecolor: 'white',
-                  ticks: '',
-                },
-              },
-              ternary: {
-                bgcolor: '#E5ECF6',
-                aaxis: { gridcolor: 'white', linecolor: 'white', ticks: '' },
-                baxis: { gridcolor: 'white', linecolor: 'white', ticks: '' },
-                caxis: { gridcolor: 'white', linecolor: 'white', ticks: '' },
-              },
               coloraxis: { colorbar: { outlinewidth: 0, ticks: '' } },
               colorscale: {
+                diverging: [
+                  [0, '#8e0152'],
+                  [0.1, '#c51b7d'],
+                  [0.2, '#de77ae'],
+                  [0.3, '#f1b6da'],
+                  [0.4, '#fde0ef'],
+                  [0.5, '#f7f7f7'],
+                  [0.6, '#e6f5d0'],
+                  [0.7, '#b8e186'],
+                  [0.8, '#7fbc41'],
+                  [0.9, '#4d9221'],
+                  [1, '#276419'],
+                ],
                 sequential: [
                   [0.0, '#0d0887'],
                   [0.1111111111111111, '#46039f'],
@@ -3880,83 +3714,101 @@ export default function Results() {
                   [0.8888888888888888, '#fdca26'],
                   [1.0, '#f0f921'],
                 ],
-                diverging: [
-                  [0, '#8e0152'],
-                  [0.1, '#c51b7d'],
-                  [0.2, '#de77ae'],
-                  [0.3, '#f1b6da'],
-                  [0.4, '#fde0ef'],
-                  [0.5, '#f7f7f7'],
-                  [0.6, '#e6f5d0'],
-                  [0.7, '#b8e186'],
-                  [0.8, '#7fbc41'],
-                  [0.9, '#4d9221'],
-                  [1, '#276419'],
-                ],
               },
-              xaxis: {
-                gridcolor: 'white',
-                linecolor: 'white',
-                ticks: '',
-                title: { standoff: 15 },
-                zerolinecolor: 'white',
-                automargin: true,
-                zerolinewidth: 2,
+              colorway: [
+                '#636efa',
+                '#EF553B',
+                '#00cc96',
+                '#ab63fa',
+                '#FFA15A',
+                '#19d3f3',
+                '#FF6692',
+                '#B6E880',
+                '#FF97FF',
+                '#FECB52',
+              ],
+              font: { color: '#2a3f5f' },
+              geo: {
+                bgcolor: 'white',
+                lakecolor: 'white',
+                landcolor: '#E5ECF6',
+                showlakes: true,
+                showland: true,
+                subunitcolor: 'white',
               },
-              yaxis: {
-                gridcolor: 'white',
-                linecolor: 'white',
-                ticks: '',
-                title: { standoff: 15 },
-                zerolinecolor: 'white',
-                automargin: true,
-                zerolinewidth: 2,
+              hoverlabel: { align: 'left' },
+              hovermode: 'closest',
+              mapbox: { style: 'light' },
+              paper_bgcolor: 'white',
+              plot_bgcolor: '#E5ECF6',
+              polar: {
+                angularaxis: {
+                  gridcolor: 'white',
+                  linecolor: 'white',
+                  ticks: '',
+                },
+                bgcolor: '#E5ECF6',
+                radialaxis: {
+                  gridcolor: 'white',
+                  linecolor: 'white',
+                  ticks: '',
+                },
               },
               scene: {
                 xaxis: {
                   backgroundcolor: '#E5ECF6',
                   gridcolor: 'white',
+                  gridwidth: 2,
                   linecolor: 'white',
                   showbackground: true,
                   ticks: '',
                   zerolinecolor: 'white',
-                  gridwidth: 2,
                 },
                 yaxis: {
                   backgroundcolor: '#E5ECF6',
                   gridcolor: 'white',
+                  gridwidth: 2,
                   linecolor: 'white',
                   showbackground: true,
                   ticks: '',
                   zerolinecolor: 'white',
-                  gridwidth: 2,
                 },
                 zaxis: {
                   backgroundcolor: '#E5ECF6',
                   gridcolor: 'white',
+                  gridwidth: 2,
                   linecolor: 'white',
                   showbackground: true,
                   ticks: '',
                   zerolinecolor: 'white',
-                  gridwidth: 2,
                 },
               },
               shapedefaults: { line: { color: '#2a3f5f' } },
-              annotationdefaults: {
-                arrowcolor: '#2a3f5f',
-                arrowhead: 0,
-                arrowwidth: 1,
-              },
-              geo: {
-                bgcolor: 'white',
-                landcolor: '#E5ECF6',
-                subunitcolor: 'white',
-                showland: true,
-                showlakes: true,
-                lakecolor: 'white',
+              ternary: {
+                aaxis: { gridcolor: 'white', linecolor: 'white', ticks: '' },
+                baxis: { gridcolor: 'white', linecolor: 'white', ticks: '' },
+                bgcolor: '#E5ECF6',
+                caxis: { gridcolor: 'white', linecolor: 'white', ticks: '' },
               },
               title: { x: 0.05 },
-              mapbox: { style: 'light' },
+              xaxis: {
+                automargin: true,
+                gridcolor: 'white',
+                linecolor: 'white',
+                ticks: '',
+                title: { standoff: 15 },
+                zerolinecolor: 'white',
+                zerolinewidth: 2,
+              },
+              yaxis: {
+                automargin: true,
+                gridcolor: 'white',
+                linecolor: 'white',
+                ticks: '',
+                title: { standoff: 15 },
+                zerolinecolor: 'white',
+                zerolinewidth: 2,
+              },
             },
           },
           xaxis: {
@@ -3977,10 +3829,10 @@ export default function Results() {
           },
           legend: { title: { text: 'Country' }, tracegroupgap: 0 },
           title: {
-            text: 'Average Capacity per Region Divided by Countries',
+            text: 'Average Capacity per Region, Divided by Countries',
             font: { size: 22 },
           },
-          barmode: 'overlay',
+          barmode: 'stack',
           height: 700,
           // width: 975,
           font: { size: 14 },
@@ -113584,18 +113436,25 @@ export default function Results() {
       </h2>
 
       <div className='results__group'>
-        <h1 className='results__group-title'>
-          {' '}
-          1. Exploring Solar Farms Energy Output
-        </h1>
+        <div className='results__wrap'>
+          <h1 className='results__group-title'>
+            {' '}
+            1. Exploring Solar Farms Energy Output
+          </h1>
 
-        <div
-          id='0d078e75-642b-493c-a06a-3ce41c97fce0'
-          className='plotly-graph-div'
-          style={{ height: '700px', width: '100%' }}
-        ></div>
+          <div
+            id='b11f0f47-2e59-4999-9e02-033b24e03057'
+            class='plotly-graph-div'
+            style={{ height: '700px', width: '100%', margin: 'auto' }}
+          ></div>
+        </div>
 
         <div className='results__explanation-container'>
+          <img
+            className='results__table'
+            src={table}
+            alt='average capacity per region table.png'
+          />
           <article className='results__explanation '>
             <h3 className='results__explanation_note'>Analyzing the regions</h3>
             <p>
@@ -113639,11 +113498,6 @@ export default function Results() {
               third-world countries.
             </p>
           </article>
-          <img
-            className='results__table'
-            src={table}
-            alt='average capacity per region table.png'
-          />
         </div>
 
         <div
