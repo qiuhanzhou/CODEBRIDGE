@@ -5,12 +5,12 @@ export default function AboutUs() {
 
   return (
     <section ref={ref} className='section about' id='about'>
-      <h1 className='about__title'>Who are we?</h1>
+      <h1 className='about__title'>About the authors: Who are we?</h1>
       <h2 className='about__subtitle'>
         We are passionate{' '}
         <span className='about__profession'>data anaylyst</span> and{' '}
         <span className='about__profession'>web developer</span> who are ready
-        to enpower the world just like solar.
+        to empower the world just like solar.
       </h2>
       <div className='grid'>
         <div className='about__lior'>
@@ -39,7 +39,7 @@ export default function AboutUs() {
               inView ? 'animation__moveInRight' : null
             } }`}
           >
-            Qiuhan Zhou
+            Qiuhan &#40;Karen&#41; Zhou
           </h2>
 
           <p
@@ -47,9 +47,9 @@ export default function AboutUs() {
               inView ? 'animation__moveInRight' : null
             } }`}
           >
-            Qiuhan is a web development student in Practicum and had a
-            background in accounting. She is passionate about building cool
-            websites from scratch with great interactivity. When she is not
+            Qiuhan &#40;Karen&#41; is a web development student in Practicum and
+            had a background in accounting. She is passionate about building
+            cool websites from scratch with great interactivity. When she is not
             coding, she is enjoying family time, playing her piano, watching
             re-runs of Friends, trying new recipes, and reading her books.
           </p>

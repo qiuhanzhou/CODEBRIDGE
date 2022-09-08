@@ -8,15 +8,15 @@ export default function Counter() {
       id: 1,
       description: 'OF GLOBAL SOLAR SYSTEMS INSTALLED',
       link: 'https://gamechangesolar.com/images/about/icon1.png',
-      unit: ' TW+',
-      number: 1,
+      unit: ' GW+',
+      number: 990,
     },
     {
       id: 2,
       description: 'SOLAR MODULES ON GLOBAL SOLAR SYSTEMS',
       link: 'https://gamechangesolar.com/images/about/icon3.png',
       unit: ' million+',
-      number: 375.8,
+      number: 874,
     },
     {
       id: 3,

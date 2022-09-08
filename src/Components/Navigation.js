@@ -8,7 +8,7 @@ export default function Navigation() {
     { id: 1, name: 'Introduction: Problem overview', sectionLink: 'intro' },
     {
       id: 2,
-      name: 'Dataset description and analysis approach',
+      name: 'Introduction to the data',
       sectionLink: 'description',
     },
     { id: 3, name: 'Data analysis result', sectionLink: 'results' },
