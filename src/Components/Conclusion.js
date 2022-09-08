@@ -5,23 +5,31 @@ export default function Conclusion() {
         <h2 className='results__group-title'>5. General Conclusion </h2>
 
         <article className='conclusion__text'>
-          <div id='preview' class='preview-html' preview='' debounce='150'>
-            <p class='has-line-data' data-line-start='1' data-line-end='2'>
+          <div id='preview' className='preview-html' preview='' debounce='150'>
+            <p className='has-line-data' data-line-start='1' data-line-end='2'>
               At the first time we observed the data during the Data Exploration
               section, we&#39;ve noticed some problems:
             </p>
             <ul>
-              <li class='has-line-data' data-line-start='2' data-line-end='3'>
+              <li
+                className='has-line-data'
+                data-line-start='2'
+                data-line-end='3'
+              >
                 All columns&#39; names were capitalized, while some possessed
                 really long names.
               </li>
-              <li class='has-line-data' data-line-start='3' data-line-end='11'>
+              <li
+                className='has-line-data'
+                data-line-start='3'
+                data-line-end='11'
+              >
                 There were 15 columns with missing values, out of which 8
                 columns are clearly fine to ignore. The columns who required the
                 special attention were:
                 <ul>
                   <li
-                    class='has-line-data'
+                    className='has-line-data'
                     data-line-start='4'
                     data-line-end='5'
                   >
@@ -30,7 +38,7 @@ export default function Conclusion() {
                     </strong>
                   </li>
                   <li
-                    class='has-line-data'
+                    className='has-line-data'
                     data-line-start='5'
                     data-line-end='6'
                   >
@@ -39,7 +47,7 @@ export default function Conclusion() {
                     </strong>
                   </li>
                   <li
-                    class='has-line-data'
+                    className='has-line-data'
                     data-line-start='6'
                     data-line-end='7'
                   >
@@ -48,7 +56,7 @@ export default function Conclusion() {
                     </strong>
                   </li>
                   <li
-                    class='has-line-data'
+                    className='has-line-data'
                     data-line-start='7'
                     data-line-end='8'
                   >
@@ -57,7 +65,7 @@ export default function Conclusion() {
                     </strong>
                   </li>
                   <li
-                    class='has-line-data'
+                    className='has-line-data'
                     data-line-start='8'
                     data-line-end='9'
                   >
@@ -66,7 +74,7 @@ export default function Conclusion() {
                     </strong>
                   </li>
                   <li
-                    class='has-line-data'
+                    className='has-line-data'
                     data-line-start='9'
                     data-line-end='10'
                   >
@@ -75,7 +83,7 @@ export default function Conclusion() {
                     </strong>
                   </li>
                   <li
-                    class='has-line-data'
+                    className='has-line-data'
                     data-line-start='10'
                     data-line-end='11'
                   >
@@ -85,7 +93,11 @@ export default function Conclusion() {
                   </li>
                 </ul>
               </li>
-              <li class='has-line-data' data-line-start='11' data-line-end='12'>
+              <li
+                className='has-line-data'
+                data-line-start='11'
+                data-line-end='12'
+              >
                 In the &#39;About&#39; section of the database, the author of
                 the data advised to check the consistency across the{' '}
                 <code>'Country</code> column trackers, although stating it
@@ -102,7 +114,11 @@ export default function Conclusion() {
                 5.1 Data Preprocessing
               </strong>
             </h2>
-            <p class='has-line-data' data-line-start='13' data-line-end='24'>
+            <p
+              className='has-line-data'
+              data-line-start='13'
+              data-line-end='24'
+            >
               We started preprocessing the data in the following ways: <br />
               <strong>
                 <em>1. Fixing columns names:</em>
@@ -148,14 +164,22 @@ export default function Conclusion() {
               missing values, except:
             </p>
             <ul>
-              <li class='has-line-data' data-line-start='24' data-line-end='25'>
+              <li
+                className='has-line-data'
+                data-line-start='24'
+                data-line-end='25'
+              >
                 The <code>'start_year'</code> and <code>'retired_year'</code>{' '}
                 columns had a full correlation of 1, which makes sense because
                 the database author has stated that the starting year for
                 projects who got cancelled or shelved was left missing, so
                 projects who got canceled cannot be retired.
               </li>
-              <li class='has-line-data' data-line-start='25' data-line-end='27'>
+              <li
+                className='has-line-data'
+                data-line-start='25'
+                data-line-end='27'
+              >
                 Using the matrix plot, we&#39;ve seen that missing values tend
                 to look differently in different rows groups locations on the
                 table, hinting there might be some connection between the
@@ -176,7 +200,11 @@ export default function Conclusion() {
               </li>
             </ul>
             <ol>
-              <li class='has-line-data' data-line-start='27' data-line-end='32'>
+              <li
+                className='has-line-data'
+                data-line-start='27'
+                data-line-end='32'
+              >
                 I&#39;ve decided to fill the missing values in the location
                 column with their coordinates values. We&#39;ve created the{' '}
                 <code>'coordinates'</code> column, that created a string dtyped
@@ -188,7 +216,7 @@ export default function Conclusion() {
                 filled with the value &#39;Unavailable&#39;:
                 <ul>
                   <li
-                    class='has-line-data'
+                    className='has-line-data'
                     data-line-start='28'
                     data-line-end='29'
                   >
@@ -196,7 +224,7 @@ export default function Conclusion() {
                     values in the <code>state_prov</code> column.
                   </li>
                   <li
-                    class='has-line-data'
+                    className='has-line-data'
                     data-line-start='29'
                     data-line-end='30'
                   >
@@ -204,7 +232,7 @@ export default function Conclusion() {
                     values in the <code>major_area</code> column.
                   </li>
                   <li
-                    class='has-line-data'
+                    className='has-line-data'
                     data-line-start='30'
                     data-line-end='31'
                   >
@@ -212,7 +240,7 @@ export default function Conclusion() {
                     values in the <code>local_area</code> column.
                   </li>
                   <li
-                    class='has-line-data'
+                    className='has-line-data'
                     data-line-start='31'
                     data-line-end='32'
                   >
@@ -225,13 +253,17 @@ export default function Conclusion() {
                   </li>
                 </ul>
               </li>
-              <li class='has-line-data' data-line-start='32' data-line-end='35'>
+              <li
+                className='has-line-data'
+                data-line-start='32'
+                data-line-end='35'
+              >
                 For missing values with local names on the &#39;local name&#39;
                 columns, we&#39;ve translated local names to fill values,
                 filling the remaining missing values with the value 'Unknown:
                 <ul>
                   <li
-                    class='has-line-data'
+                    className='has-line-data'
                     data-line-start='33'
                     data-line-end='34'
                   >
@@ -241,7 +273,7 @@ export default function Conclusion() {
                     - 7 values were filled out of 3290.
                   </li>
                   <li
-                    class='has-line-data'
+                    className='has-line-data'
                     data-line-start='34'
                     data-line-end='35'
                   >
@@ -252,7 +284,11 @@ export default function Conclusion() {
                   </li>
                 </ul>
               </li>
-              <li class='has-line-data' data-line-start='35' data-line-end='36'>
+              <li
+                className='has-line-data'
+                data-line-start='35'
+                data-line-end='36'
+              >
                 We&#39;ve managed to fill 28 rows out of the 5350 missing values
                 in the <code>phase_name</code> column using the non-encrypted
                 other IDs in the <code>other_unit_phase_id</code> column. Since
@@ -270,17 +306,25 @@ export default function Conclusion() {
                 5.2 The Analysis and Data Visualization
               </strong>
             </h2>
-            <p class='has-line-data' data-line-start='37' data-line-end='38'>
+            <p
+              className='has-line-data'
+              data-line-start='37'
+              data-line-end='38'
+            >
               We&#39;ve explored a few areas in that section, as my top
               conclusions were as follows.
             </p>
-            <h3 class='code-line' data-line-start='38' data-line-end='39'>
+            <h3 className='code-line' data-line-start='38' data-line-end='39'>
               <a id='Conclusions_regarding_capacity_output_38'></a>
               <strong>
                 <em>Conclusions regarding capacity output:</em>
               </strong>
             </h3>
-            <p class='has-line-data' data-line-start='39' data-line-end='42'>
+            <p
+              className='has-line-data'
+              data-line-start='39'
+              data-line-end='42'
+            >
               Asia is the region that produces the highest energy output in the
               entire world, but without North Korea, it&#39;s dropping to the
               3rd place, symbolizing that it constitutes a huge part of Asia
@@ -318,12 +362,16 @@ export default function Conclusion() {
               geographical location, is the northest place in the world for a
               solar farm to appear.
             </p>
-            <h4 class='code-line' data-line-start='42' data-line-end='43'>
+            <h4 className='code-line' data-line-start='42' data-line-end='43'>
               <a id='To_create_an_exact_profile_42'></a>
               <strong>To create an exact profile:</strong>
             </h4>
             <ul>
-              <li class='has-line-data' data-line-start='43' data-line-end='44'>
+              <li
+                className='has-line-data'
+                data-line-start='43'
+                data-line-end='44'
+              >
                 The countries with{' '}
                 <strong>
                   <em>the highest</em>
@@ -332,7 +380,11 @@ export default function Conclusion() {
                 countries, with great access to heat and sunlight, located near
                 the coast or in a country close to the coast.
               </li>
-              <li class='has-line-data' data-line-start='44' data-line-end='45'>
+              <li
+                className='has-line-data'
+                data-line-start='44'
+                data-line-end='45'
+              >
                 The countries with{' '}
                 <strong>
                   <em>the lowest</em>
@@ -342,7 +394,7 @@ export default function Conclusion() {
                 side of the globe.
               </li>
             </ul>
-            <h3 class='code-line' data-line-start='45' data-line-end='46'>
+            <h3 className='code-line' data-line-start='45' data-line-end='46'>
               <a id='Conclusions_regarding_the_growth_in_the_amounts_of_solar_energy_production_45'></a>
               <strong>
                 <em>
@@ -351,7 +403,11 @@ export default function Conclusion() {
                 </em>
               </strong>
             </h3>
-            <p class='has-line-data' data-line-start='46' data-line-end='48'>
+            <p
+              className='has-line-data'
+              data-line-start='46'
+              data-line-end='48'
+            >
               It seems like even though the solar farms market has started
               pretty low, it has gained popularity in the beginning of the last
               decade, around 2012-2013, while Asian countries have embraced the
@@ -372,7 +428,7 @@ export default function Conclusion() {
               growth rate. The Middle East region currently has 64 solar plants
               in 2022.
             </p>
-            <h3 class='code-line' data-line-start='48' data-line-end='49'>
+            <h3 className='code-line' data-line-start='48' data-line-end='49'>
               <a id='Conclusions_regarding_ownerships_in_the_solar_energy_market_48'></a>
               <strong>
                 <em>
@@ -380,7 +436,11 @@ export default function Conclusion() {
                 </em>
               </strong>
             </h3>
-            <p class='has-line-data' data-line-start='49' data-line-end='50'>
+            <p
+              className='has-line-data'
+              data-line-start='49'
+              data-line-end='50'
+            >
               There seems to be a carte union in the global solar energy market,
               as while there are 3453 recorded ownerships of solar farms
               globally, only 112 companies out of them own more than 10 farms,
@@ -395,7 +455,11 @@ export default function Conclusion() {
             >
               <a id='53_Final_words_50'></a>5.3 Final words
             </h2>
-            <p class='has-line-data' data-line-start='51' data-line-end='52'>
+            <p
+              className='has-line-data'
+              data-line-start='51'
+              data-line-end='52'
+            >
               While there might&#39;ve been a slowdown in the past 2 years
               because of the global pandemic, the future is looking bright and
               sunny, as more and more counties are starting to invest in solar

@@ -113591,7 +113591,7 @@ export default function Results() {
 
         <div
           id='0d078e75-642b-493c-a06a-3ce41c97fce0'
-          class='plotly-graph-div'
+          className='plotly-graph-div'
           style={{ height: '700px', width: '100%' }}
         ></div>
 
@@ -113648,7 +113648,7 @@ export default function Results() {
 
         <div
           id='ddb7bfd3-dc2d-4842-be76-1982c0703c4d'
-          class='plotly-graph-div'
+          className='plotly-graph-div'
           style={{ height: '675px', width: '100%' }}
         ></div>
         <article className='results__explanation'>
@@ -113747,7 +113747,7 @@ export default function Results() {
         </h1>
         <div
           id='bbc70df4-65c8-4f19-a70c-0485833025e3'
-          class='plotly-graph-div'
+          className='plotly-graph-div'
           style={{ height: '600px', width: '100%' }}
         ></div>
         <article className='results__explanation'>

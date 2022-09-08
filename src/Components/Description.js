@@ -21,26 +21,47 @@ export default function Description() {
         >
           <div
             id='preview1'
-            class='g-b g-b--t1of2 split split-preview description__preview'
+            className='g-b g-b--t1of2 split split-preview description__preview'
           >
-            <div id='preview' class='preview-html' preview='' debounce='150'>
-              <p class='has-line-data' data-line-start='2' data-line-end='3'>
+            <div
+              id='preview'
+              className='preview-html'
+              preview=''
+              debounce='150'
+            >
+              <p
+                className='has-line-data'
+                data-line-start='2'
+                data-line-end='3'
+              >
                 At the current section, we&#39;ll study the data from the
                 &#39;About&#39; section of the xlsx file we imported the data
                 from.
               </p>
-              <p class='has-line-data' data-line-start='4' data-line-end='5'>
+              <p
+                className='has-line-data'
+                data-line-start='4'
+                data-line-end='5'
+              >
                 <strong>
                   <em>A&#41; Columns coverage</em>
                 </strong>
               </p>
-              <p class='has-line-data' data-line-start='6' data-line-end='7'>
+              <p
+                className='has-line-data'
+                data-line-start='6'
+                data-line-end='7'
+              >
                 The raw data contains the following columns:
               </p>
               <ul>
-                <li class='has-line-data' data-line-start='7' data-line-end='9'>
+                <li
+                  className='has-line-data'
+                  data-line-start='7'
+                  data-line-end='9'
+                >
                   <p
-                    class='has-line-data'
+                    className='has-line-data'
                     data-line-start='7'
                     data-line-end='8'
                   >
@@ -51,12 +72,12 @@ export default function Description() {
                   </p>
                 </li>
                 <li
-                  class='has-line-data'
+                  className='has-line-data'
                   data-line-start='9'
                   data-line-end='11'
                 >
                   <p
-                    class='has-line-data'
+                    className='has-line-data'
                     data-line-start='9'
                     data-line-end='10'
                   >
@@ -67,12 +88,12 @@ export default function Description() {
                   </p>
                 </li>
                 <li
-                  class='has-line-data'
+                  className='has-line-data'
                   data-line-start='11'
                   data-line-end='13'
                 >
                   <p
-                    class='has-line-data'
+                    className='has-line-data'
                     data-line-start='11'
                     data-line-end='12'
                   >
@@ -83,12 +104,12 @@ export default function Description() {
                   </p>
                 </li>
                 <li
-                  class='has-line-data'
+                  className='has-line-data'
                   data-line-start='13'
                   data-line-end='15'
                 >
                   <p
-                    class='has-line-data'
+                    className='has-line-data'
                     data-line-start='13'
                     data-line-end='14'
                   >
@@ -99,12 +120,12 @@ export default function Description() {
                   </p>
                 </li>
                 <li
-                  class='has-line-data'
+                  className='has-line-data'
                   data-line-start='15'
                   data-line-end='17'
                 >
                   <p
-                    class='has-line-data'
+                    className='has-line-data'
                     data-line-start='15'
                     data-line-end='16'
                   >
@@ -115,12 +136,12 @@ export default function Description() {
                   </p>
                 </li>
                 <li
-                  class='has-line-data'
+                  className='has-line-data'
                   data-line-start='17'
                   data-line-end='20'
                 >
                   <p
-                    class='has-line-data'
+                    className='has-line-data'
                     data-line-start='17'
                     data-line-end='18'
                   >
@@ -132,7 +153,7 @@ export default function Description() {
                   </p>
                   <ul>
                     <li
-                      class='has-line-data'
+                      className='has-line-data'
                       data-line-start='18'
                       data-line-end='20'
                     >
@@ -143,12 +164,12 @@ export default function Description() {
                   </ul>
                 </li>
                 <li
-                  class='has-line-data'
+                  className='has-line-data'
                   data-line-start='20'
                   data-line-end='22'
                 >
                   <p
-                    class='has-line-data'
+                    className='has-line-data'
                     data-line-start='20'
                     data-line-end='21'
                   >
@@ -161,12 +182,12 @@ export default function Description() {
                   </p>
                 </li>
                 <li
-                  class='has-line-data'
+                  className='has-line-data'
                   data-line-start='22'
                   data-line-end='24'
                 >
                   <p
-                    class='has-line-data'
+                    className='has-line-data'
                     data-line-start='22'
                     data-line-end='23'
                   >
@@ -177,12 +198,12 @@ export default function Description() {
                   </p>
                 </li>
                 <li
-                  class='has-line-data'
+                  className='has-line-data'
                   data-line-start='24'
                   data-line-end='26'
                 >
                   <p
-                    class='has-line-data'
+                    className='has-line-data'
                     data-line-start='24'
                     data-line-end='25'
                   >
@@ -193,12 +214,12 @@ export default function Description() {
                   </p>
                 </li>
                 <li
-                  class='has-line-data'
+                  className='has-line-data'
                   data-line-start='26'
                   data-line-end='28'
                 >
                   <p
-                    class='has-line-data'
+                    className='has-line-data'
                     data-line-start='26'
                     data-line-end='27'
                   >
@@ -209,12 +230,12 @@ export default function Description() {
                   </p>
                 </li>
                 <li
-                  class='has-line-data'
+                  className='has-line-data'
                   data-line-start='28'
                   data-line-end='30'
                 >
                   <p
-                    class='has-line-data'
+                    className='has-line-data'
                     data-line-start='28'
                     data-line-end='29'
                   >
@@ -225,12 +246,12 @@ export default function Description() {
                   </p>
                 </li>
                 <li
-                  class='has-line-data'
+                  className='has-line-data'
                   data-line-start='30'
                   data-line-end='32'
                 >
                   <p
-                    class='has-line-data'
+                    className='has-line-data'
                     data-line-start='30'
                     data-line-end='31'
                   >
@@ -242,12 +263,12 @@ export default function Description() {
                   </p>
                 </li>
                 <li
-                  class='has-line-data'
+                  className='has-line-data'
                   data-line-start='32'
                   data-line-end='34'
                 >
                   <p
-                    class='has-line-data'
+                    className='has-line-data'
                     data-line-start='32'
                     data-line-end='33'
                   >
@@ -260,12 +281,12 @@ export default function Description() {
                   </p>
                 </li>
                 <li
-                  class='has-line-data'
+                  className='has-line-data'
                   data-line-start='34'
                   data-line-end='36'
                 >
                   <p
-                    class='has-line-data'
+                    className='has-line-data'
                     data-line-start='34'
                     data-line-end='35'
                   >
@@ -277,12 +298,12 @@ export default function Description() {
                   </p>
                 </li>
                 <li
-                  class='has-line-data'
+                  className='has-line-data'
                   data-line-start='36'
                   data-line-end='38'
                 >
                   <p
-                    class='has-line-data'
+                    className='has-line-data'
                     data-line-start='36'
                     data-line-end='37'
                   >
@@ -294,12 +315,12 @@ export default function Description() {
                   </p>
                 </li>
                 <li
-                  class='has-line-data'
+                  className='has-line-data'
                   data-line-start='38'
                   data-line-end='40'
                 >
                   <p
-                    class='has-line-data'
+                    className='has-line-data'
                     data-line-start='38'
                     data-line-end='39'
                   >
@@ -311,12 +332,12 @@ export default function Description() {
                   </p>
                 </li>
                 <li
-                  class='has-line-data'
+                  className='has-line-data'
                   data-line-start='40'
                   data-line-end='42'
                 >
                   <p
-                    class='has-line-data'
+                    className='has-line-data'
                     data-line-start='40'
                     data-line-end='41'
                   >
@@ -330,12 +351,12 @@ export default function Description() {
                   </p>
                 </li>
                 <li
-                  class='has-line-data'
+                  className='has-line-data'
                   data-line-start='42'
                   data-line-end='44'
                 >
                   <p
-                    class='has-line-data'
+                    className='has-line-data'
                     data-line-start='42'
                     data-line-end='43'
                   >
@@ -347,12 +368,12 @@ export default function Description() {
                   </p>
                 </li>
                 <li
-                  class='has-line-data'
+                  className='has-line-data'
                   data-line-start='44'
                   data-line-end='46'
                 >
                   <p
-                    class='has-line-data'
+                    className='has-line-data'
                     data-line-start='44'
                     data-line-end='45'
                   >
@@ -364,12 +385,12 @@ export default function Description() {
                   </p>
                 </li>
                 <li
-                  class='has-line-data'
+                  className='has-line-data'
                   data-line-start='46'
                   data-line-end='48'
                 >
                   <p
-                    class='has-line-data'
+                    className='has-line-data'
                     data-line-start='46'
                     data-line-end='47'
                   >
@@ -381,12 +402,12 @@ export default function Description() {
                   </p>
                 </li>
                 <li
-                  class='has-line-data'
+                  className='has-line-data'
                   data-line-start='48'
                   data-line-end='50'
                 >
                   <p
-                    class='has-line-data'
+                    className='has-line-data'
                     data-line-start='48'
                     data-line-end='49'
                   >
@@ -397,12 +418,12 @@ export default function Description() {
                   </p>
                 </li>
                 <li
-                  class='has-line-data'
+                  className='has-line-data'
                   data-line-start='50'
                   data-line-end='52'
                 >
                   <p
-                    class='has-line-data'
+                    className='has-line-data'
                     data-line-start='50'
                     data-line-end='51'
                   >
@@ -413,12 +434,12 @@ export default function Description() {
                   </p>
                 </li>
                 <li
-                  class='has-line-data'
+                  className='has-line-data'
                   data-line-start='52'
                   data-line-end='54'
                 >
                   <p
-                    class='has-line-data'
+                    className='has-line-data'
                     data-line-start='52'
                     data-line-end='53'
                   >
@@ -429,12 +450,12 @@ export default function Description() {
                   </p>
                 </li>
                 <li
-                  class='has-line-data'
+                  className='has-line-data'
                   data-line-start='54'
                   data-line-end='56'
                 >
                   <p
-                    class='has-line-data'
+                    className='has-line-data'
                     data-line-start='54'
                     data-line-end='55'
                   >
@@ -445,12 +466,12 @@ export default function Description() {
                   </p>
                 </li>
                 <li
-                  class='has-line-data'
+                  className='has-line-data'
                   data-line-start='56'
                   data-line-end='58'
                 >
                   <p
-                    class='has-line-data'
+                    className='has-line-data'
                     data-line-start='56'
                     data-line-end='57'
                   >
@@ -458,12 +479,12 @@ export default function Description() {
                   </p>
                 </li>
                 <li
-                  class='has-line-data'
+                  className='has-line-data'
                   data-line-start='58'
                   data-line-end='60'
                 >
                   <p
-                    class='has-line-data'
+                    className='has-line-data'
                     data-line-start='58'
                     data-line-end='59'
                   >
@@ -471,12 +492,12 @@ export default function Description() {
                   </p>
                 </li>
                 <li
-                  class='has-line-data'
+                  className='has-line-data'
                   data-line-start='60'
                   data-line-end='61'
                 >
                   <p
-                    class='has-line-data'
+                    className='has-line-data'
                     data-line-start='60'
                     data-line-end='61'
                   >
@@ -487,7 +508,11 @@ export default function Description() {
                   </p>
                 </li>
               </ul>
-              <p class='has-line-data' data-line-start='63' data-line-end='64'>
+              <p
+                className='has-line-data'
+                data-line-start='63'
+                data-line-end='64'
+              >
                 <strong>
                   <em>
                     B&#41; Regarding the <code>Status</code> column - these are
@@ -497,7 +522,7 @@ export default function Description() {
               </p>
               <ul>
                 <li
-                  class='has-line-data'
+                  className='has-line-data'
                   data-line-start='65'
                   data-line-end='67'
                 >
@@ -506,12 +531,16 @@ export default function Description() {
                   </strong>
                 </li>
               </ul>
-              <p class='has-line-data' data-line-start='67' data-line-end='68'>
+              <p
+                className='has-line-data'
+                data-line-start='67'
+                data-line-end='68'
+              >
                 Commercial operation date achieved.
               </p>
               <ul>
                 <li
-                  class='has-line-data'
+                  className='has-line-data'
                   data-line-start='69'
                   data-line-end='71'
                 >
@@ -520,13 +549,17 @@ export default function Description() {
                   </strong>
                 </li>
               </ul>
-              <p class='has-line-data' data-line-start='71' data-line-end='72'>
+              <p
+                className='has-line-data'
+                data-line-start='71'
+                data-line-end='72'
+              >
                 Equipment installation has begun &#40;not just
                 clearing/roads&#41;
               </p>
               <ul>
                 <li
-                  class='has-line-data'
+                  className='has-line-data'
                   data-line-start='73'
                   data-line-end='75'
                 >
@@ -535,13 +568,17 @@ export default function Description() {
                   </strong>
                 </li>
               </ul>
-              <p class='has-line-data' data-line-start='75' data-line-end='76'>
+              <p
+                className='has-line-data'
+                data-line-start='75'
+                data-line-end='76'
+              >
                 Projects that are actively moving forward in seeking
                 governmental approvals, land rights, or financing.
               </p>
               <ul>
                 <li
-                  class='has-line-data'
+                  className='has-line-data'
                   data-line-start='77'
                   data-line-end='79'
                 >
@@ -550,7 +587,11 @@ export default function Description() {
                   </strong>
                 </li>
               </ul>
-              <p class='has-line-data' data-line-start='79' data-line-end='80'>
+              <p
+                className='has-line-data'
+                data-line-start='79'
+                data-line-end='80'
+              >
                 Projects that been publicly reported but have not yet moved
                 actively forward by applying for permits or seeking land,
                 material, or financing. Examples: &#40;1&#41; projects are the
@@ -560,7 +601,7 @@ export default function Description() {
               </p>
               <ul>
                 <li
-                  class='has-line-data'
+                  className='has-line-data'
                   data-line-start='81'
                   data-line-end='83'
                 >
@@ -569,12 +610,16 @@ export default function Description() {
                   </strong>
                 </li>
               </ul>
-              <p class='has-line-data' data-line-start='83' data-line-end='84'>
+              <p
+                className='has-line-data'
+                data-line-start='83'
+                data-line-end='84'
+              >
                 Suspension announced, or 2 years with no published updates
               </p>
               <ul>
                 <li
-                  class='has-line-data'
+                  className='has-line-data'
                   data-line-start='85'
                   data-line-end='87'
                 >
@@ -583,12 +628,16 @@ export default function Description() {
                   </strong>
                 </li>
               </ul>
-              <p class='has-line-data' data-line-start='87' data-line-end='88'>
+              <p
+                className='has-line-data'
+                data-line-start='87'
+                data-line-end='88'
+              >
                 Disused but not dismantled
               </p>
               <ul>
                 <li
-                  class='has-line-data'
+                  className='has-line-data'
                   data-line-start='89'
                   data-line-end='91'
                 >
@@ -597,12 +646,16 @@ export default function Description() {
                   </strong>
                 </li>
               </ul>
-              <p class='has-line-data' data-line-start='91' data-line-end='92'>
+              <p
+                className='has-line-data'
+                data-line-start='91'
+                data-line-end='92'
+              >
                 Dismantled
               </p>
               <ul>
                 <li
-                  class='has-line-data'
+                  className='has-line-data'
                   data-line-start='93'
                   data-line-end='95'
                 >
@@ -611,10 +664,18 @@ export default function Description() {
                   </strong>
                 </li>
               </ul>
-              <p class='has-line-data' data-line-start='95' data-line-end='96'>
+              <p
+                className='has-line-data'
+                data-line-start='95'
+                data-line-end='96'
+              >
                 Cancellation announced, or 4 years with no published updates
               </p>
-              <p class='has-line-data' data-line-start='97' data-line-end='98'>
+              <p
+                className='has-line-data'
+                data-line-start='97'
+                data-line-end='98'
+              >
                 <strong>
                   <em>
                     C&#41; A note regarding the solar farms capacity cutoff
@@ -622,7 +683,11 @@ export default function Description() {
                   </em>
                 </strong>
               </p>
-              <p class='has-line-data' data-line-start='99' data-line-end='100'>
+              <p
+                className='has-line-data'
+                data-line-start='99'
+                data-line-end='100'
+              >
                 The capacity cutoff voltages values &#40;the minimum
                 voltage&#41; in{' '}
                 <strong>Arab countries is any capacity under 10 MWs</strong>,
@@ -633,7 +698,7 @@ export default function Description() {
                 .
               </p>
               <p
-                class='has-line-data'
+                className='has-line-data'
                 data-line-start='101'
                 data-line-end='102'
               >
@@ -643,7 +708,7 @@ export default function Description() {
               </p>
               <ol>
                 <li
-                  class='has-line-data'
+                  className='has-line-data'
                   data-line-start='102'
                   data-line-end='103'
                 >
@@ -652,19 +717,11 @@ export default function Description() {
                   columns are al capitalized, these will be transformed in the
                   Data Preprocessing section.
                 </li>
-                <li
-                  class='has-line-data'
-                  data-line-start='103'
-                  data-line-end='104'
-                >
+                <li data-line-start='103' data-line-end='104'>
                   We&#39;ll preprocess all the data to fix all possible problems
                   we will find during the Data Exploration section.
                 </li>
-                <li
-                  class='has-line-data'
-                  data-line-start='104'
-                  data-line-end='105'
-                >
+                <li data-line-start='104' data-line-end='105'>
                   Analysis: We&#39;ll visualize the data in order to analyze the
                   energy output, average output, etc.
                 </li>
