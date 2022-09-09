@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/CODEBRIDGE/static/css/main.1bf0fead.css",
+    "main.css": "/CODEBRIDGE/static/css/main.2336b117.css",
     "main.js": "/CODEBRIDGE/static/js/main.e406955e.js",
     "static/js/787.d7ece244.chunk.js": "/CODEBRIDGE/static/js/787.d7ece244.chunk.js",
     "static/media/map-sm2.png": "/CODEBRIDGE/static/media/map-sm2.f21d7feee98cd77be318.png",
@@ -15,12 +15,12 @@
     "static/media/slick.ttf": "/CODEBRIDGE/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/CODEBRIDGE/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/CODEBRIDGE/index.html",
-    "main.1bf0fead.css.map": "/CODEBRIDGE/static/css/main.1bf0fead.css.map",
+    "main.2336b117.css.map": "/CODEBRIDGE/static/css/main.2336b117.css.map",
     "main.e406955e.js.map": "/CODEBRIDGE/static/js/main.e406955e.js.map",
     "787.d7ece244.chunk.js.map": "/CODEBRIDGE/static/js/787.d7ece244.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1bf0fead.css",
+    "static/css/main.2336b117.css",
     "static/js/main.e406955e.js"
   ]
 }
