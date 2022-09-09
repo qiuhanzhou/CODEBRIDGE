@@ -1,6 +1,6 @@
 .slide {
   box-sizing: border-box;
-  height: calc(100vh - 140px);
+  height: calc(100vh - 90px);
   position: relative;
 
   &__img {
@@ -11,7 +11,7 @@
 
   .slide__slogen {
     position: absolute;
-    top: 75%;
+    top: 70%;
     left: 8%;
     width: 60%;
     text-align: left;
