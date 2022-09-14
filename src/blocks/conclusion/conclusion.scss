@@ -12,7 +12,7 @@
   &__text {
     width: 90%;
     margin-top: 50px;
-    font-size: 20px;
+    font-size: 14px;
   }
   &__title {
     margin-top: 50px;
@@ -27,6 +27,8 @@
 
 @media screen and (max-width: 1280px) {
   .conclusion {
+    width: 100%;
+
     padding-top: 0;
 
     &__container {
