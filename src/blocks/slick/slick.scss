@@ -2,3 +2,16 @@
 .slick-next:before {
   color: black !important;
 }
+
+@media screen and (max-width: 767px) {
+  .slick-prev {
+    left: -15px;
+    height: 10px;
+    width: 10px;
+  }
+  .slick-next {
+    right: -15px;
+    height: 10px;
+    width: 10px;
+  }
+}

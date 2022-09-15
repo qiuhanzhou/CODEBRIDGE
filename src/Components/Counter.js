@@ -69,5 +69,3 @@ export default function Counter() {
     </Fragment>
   )
 }
-
-// animateCounter(document.querySelector('input'))
