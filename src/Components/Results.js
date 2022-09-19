@@ -16,7 +16,7 @@ import Owner from './Owner'
 
 export default function Results() {
   const [width, setWidth] = useState(window.innerWidth)
-  const breakPoint = 1250
+  const breakPoint = 550
 
   useEffect(() => {
     const handleWindowResize = () => setWidth(window.innerWidth)
@@ -41,9 +41,9 @@ export default function Results() {
         </div>
 
         <div>
-          {width > breakPoint ? (
-            <BarPlot />
-          ) : (
+          {/* {width > breakPoint ? ( */}
+          <BarPlot />
+          {/* ) : (
             <div>
               <img
                 className='results__small-img results__sm'
@@ -51,7 +51,7 @@ export default function Results() {
                 alt='average capacity per region bar plot'
               />
             </div>
-          )}
+          )} */}
         </div>
 
         <div className='results__explanation-container'>
@@ -106,9 +106,9 @@ export default function Results() {
         </div>
 
         <div>
-          {width > breakPoint ? (
-            <Map />
-          ) : (
+          {/* {width > breakPoint ? ( */}
+          <Map />
+          {/* ) : (
             <div>
               <img
                 className='results__small-img results__sm'
@@ -116,7 +116,7 @@ export default function Results() {
                 alt='global energy output map'
               />
             </div>
-          )}
+          )} */}
         </div>
 
         <article className='results__explanation'>
@@ -223,9 +223,9 @@ export default function Results() {
         </h1>
 
         <div>
-          {width > breakPoint ? (
-            <Owner />
-          ) : (
+          {/* {width > breakPoint ? ( */}
+          <Owner />
+          {/* ) : (
             <div>
               <img
                 className='results__small-img results__sm'
@@ -233,7 +233,7 @@ export default function Results() {
                 alt='solar farms per ownership'
               />
             </div>
-          )}
+          )} */}
         </div>
 
         <article className='results__explanation'>
@@ -271,9 +271,9 @@ export default function Results() {
         </h1>
 
         <div>
-          {width > breakPoint ? (
-            <SimpleLineChart />
-          ) : (
+          {/* {width > breakPoint ? ( */}
+          <SimpleLineChart />
+          {/* ) : (
             <div>
               <img
                 className='results__small-img results__sm'
@@ -281,7 +281,7 @@ export default function Results() {
                 alt='top two countries with largest capacity chart'
               />
             </div>
-          )}
+          )} */}
         </div>
       </div>
     </section>

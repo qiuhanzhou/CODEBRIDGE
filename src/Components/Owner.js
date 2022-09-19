@@ -618,7 +618,7 @@ export default function Owner() {
           },
           barmode: 'relative',
           height: 600,
-          width: 877,
+          // width: 877,
           font: { size: 16 },
           uniformtext: { mode: 'hide' },
           spikedistance: 500,

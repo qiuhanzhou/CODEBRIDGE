@@ -3828,7 +3828,7 @@ export default function BarPlot() {
           },
           barmode: 'stack',
           height: 700,
-          width: 975,
+          // width: 975,
           font: { size: 14 },
           uniformtext: { mode: 'hide' },
           spikedistance: 1000,

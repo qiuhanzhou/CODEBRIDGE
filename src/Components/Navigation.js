@@ -1,8 +1,9 @@
 import NavigationItem from './NavigationItem'
-import { useRef } from 'react'
+import { useRef, useState } from 'react'
 
 export default function Navigation() {
   const inputRef = useRef()
+  const [showNav, setShowNav] = useState(true)
 
   const navigationItems = [
     { id: 1, name: 'Introduction: Problem overview', sectionLink: 'intro' },
@@ -18,33 +19,36 @@ export default function Navigation() {
 
   function close() {
     inputRef.current.checked = false
+    setShowNav(false)
   }
 
   return (
-    <div className=' navigation'>
-      <input
-        type='checkbox'
-        className='navigation__checkbox'
-        id='navi-toggle'
-        ref={inputRef}
-      />
-      <label htmlFor='navi-toggle' className='navigation__button'>
-        <span className='navigation__icon'>&nbsp;</span>
-      </label>
+    showNav && (
+      <div className=' navigation'>
+        <input
+          type='checkbox'
+          className='navigation__checkbox'
+          id='navi-toggle'
+          ref={inputRef}
+        />
+        <label htmlFor='navi-toggle' className='navigation__button'>
+          <span className='navigation__icon'>&nbsp;</span>
+        </label>
 
-      <div className='navigation__background'>&nbsp;</div>
+        <div className='navigation__background'>&nbsp;</div>
 
-      <nav className='navigation__nav'>
-        <ul className='navigation__list'>
-          {navigationItems.map((item) => (
-            <NavigationItem
-              key={item.id}
-              navigationItem={item}
-              onClick={close}
-            />
-          ))}
-        </ul>
-      </nav>
-    </div>
+        <nav className='navigation__nav'>
+          <ul className='navigation__list'>
+            {navigationItems.map((item) => (
+              <NavigationItem
+                key={item.id}
+                navigationItem={item}
+                onClick={close}
+              />
+            ))}
+          </ul>
+        </nav>
+      </div>
+    )
   )
 }
