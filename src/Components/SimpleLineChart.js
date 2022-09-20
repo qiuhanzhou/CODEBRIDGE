@@ -94,7 +94,7 @@ export default class SimpleLineChart extends PureComponent {
         <h2
           style={{
             color: 'grey',
-            fontSize: '26px',
+            fontSize: '16px',
             alignSelf: 'flex-start',
             marginLeft: '20px',
           }}
@@ -105,7 +105,7 @@ export default class SimpleLineChart extends PureComponent {
 
         <ResponsiveContainer width='100%' height='100%' aspect={3}>
           <LineChart
-            width={300}
+            // width={200}
             height={300}
             data={data}
             margin={{
