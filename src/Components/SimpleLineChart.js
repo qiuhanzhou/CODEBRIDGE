@@ -103,10 +103,12 @@ export default class SimpleLineChart extends PureComponent {
           Year
         </h2>
 
-        <ResponsiveContainer width='100%' height='100%' aspect={3}>
+        <ResponsiveContainer
+          width='100%'
+          aspect={3}
+          style={{ position: 'absolute' }}
+        >
           <LineChart
-            // width={200}
-            height={300}
             data={data}
             margin={{
               top: 5,
